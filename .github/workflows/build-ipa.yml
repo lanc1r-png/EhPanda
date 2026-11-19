@@ -1,0 +1,57 @@
+name: Build IPA
+# Unsigned .ipa for personal use: the app is signed afterwards on the device by a sideloading app.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+env:
+  SCHEME_NAME: 'EhPanda'
+  ARCHIVE_PATH: '/tmp/action-builds/EhPanda.xcarchive'
+  PAYLOAD_PATH: '/tmp/action-builds/Payload'
+  IPA_PATH: '/tmp/action-builds/EhPanda.ipa'
+jobs:
+  Build:
+    runs-on: xcode-27
+    timeout-minutes: 90
+    concurrency:
+      group: build-ipa-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Install iOS 27 Platform
+        uses: nick-fields/retry@v4
+        with:
+          retry_on: error
+          max_attempts: 5
+          timeout_minutes: 60
+          command: xcodebuild -downloadPlatform iOS
+      - name: Show Xcode version
+        run: xcodebuild -version
+      - name: Xcode archive
+        run: xcodebuild archive
+          -skipMacroValidation
+          -skipPackagePluginValidation
+          -scheme ${{ env.SCHEME_NAME }}
+          -destination 'generic/platform=iOS'
+          -archivePath ${{ env.ARCHIVE_PATH }}
+          CODE_SIGN_IDENTITY=
+          CODE_SIGN_ENTITLEMENTS=
+          CODE_SIGNING_ALLOWED=NO
+          CODE_SIGNING_REQUIRED=NO
+          GCC_OPTIMIZATION_LEVEL=s
+          SWIFT_OPTIMIZATION_LEVEL=-O
+      - name: Package .ipa
+        run: |
+          set -euo pipefail
+          mkdir -p "$PAYLOAD_PATH"
+          mv "$ARCHIVE_PATH/Products/Applications/$SCHEME_NAME.app" "$PAYLOAD_PATH/"
+          cd "$(dirname "$PAYLOAD_PATH")"
+          zip -qry "$IPA_PATH" Payload
+          ls -lh "$IPA_PATH"
+      - name: Upload .ipa
+        uses: actions/upload-artifact@v7
+        with:
+          name: EhPanda-ipa
+          path: ${{ env.IPA_PATH }}
+          if-no-files-found: error

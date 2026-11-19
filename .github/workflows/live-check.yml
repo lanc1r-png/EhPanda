@@ -8,8 +8,6 @@ name: Live check
 # Scheduled workflows run only from the default branch, and GitHub turns off a public repository's schedules after
 # 60 days without repository activity. A push to ci/live-check runs it once from a branch (owner go-ahead each time).
 on:
-  schedule:
-    - cron: '17 4 * * *'
   workflow_dispatch:
   push:
     branches: [ci/live-check]
