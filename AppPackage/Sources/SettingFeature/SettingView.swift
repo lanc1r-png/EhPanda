@@ -6,7 +6,6 @@ import SFSafeSymbols
 public import SwiftUI
 
 public struct SettingView: View {
-    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
     @Environment(\.isPresented) private var isPresented
     @Environment(\.tabBarPlacement) private var tabBarPlacement
 
@@ -30,16 +29,18 @@ public struct SettingView: View {
     // MARK: SettingView
     public var body: some View {
         NavigationStack(path: $store.scope(\.path, action: \.path)) {
-            ScrollView {
-                VStack(spacing: dynamicTypeSize.isAccessibilitySize ? 12 : 0) {
-                    ForEach(SettingReducer.RootScreen.allCases) { screen in
-                        SettingRow(rowType: screen) {
-                            store.send(.settingRowTapped($0))
+            List {
+                ForEach(SettingReducer.RootScreen.sections, id: \.first) { screens in
+                    Section {
+                        ForEach(screens) { screen in
+                            SettingRow(rowType: screen) {
+                                store.send(.settingRowTapped($0))
+                            }
                         }
                     }
                 }
-                .padding(.vertical, 40).padding(.horizontal)
             }
+            .listStyle(.insetGrouped)
             .scrollEdgeEffectStyle(.soft, for: .top)
             .navigationTitle(.RLocalizable.setting)
             .toolbarTitleDisplayMode(designedTitleDisplayMode)
@@ -108,18 +109,13 @@ public struct SettingView: View {
 
 // MARK: SettingRow
 /// A root row is a `Button` whose label is the row's `Label`, so it carries the button role and
-/// its visible title as both the VoiceOver label and the Voice Control name; a tap gesture with a
-/// long-press tracking the pressed look gave it neither. The designed pressed background is drawn
-/// by ``SettingRowStyle`` from the button's own pressed state instead.
+/// its visible title as both the VoiceOver label and the Voice Control name. The list supplies the
+/// pressed highlight and the grouped Liquid Glass card; the row only draws its colored icon tile.
 private struct SettingRow: View {
-    @Environment(\.colorScheme) private var colorScheme
+    @ScaledMetric private var tileSize: CGFloat = 30
 
     private let rowType: SettingReducer.RootScreen
     private let tapAction: (SettingReducer.RootScreen) -> Void
-
-    private var color: Color {
-        colorScheme == .light ? Color(uiColor: .darkGray) : Color(uiColor: .lightGray)
-    }
 
     init(rowType: SettingReducer.RootScreen, tapAction: @escaping (SettingReducer.RootScreen) -> Void) {
         self.rowType = rowType
@@ -132,37 +128,16 @@ private struct SettingRow: View {
         } label: {
             Label {
                 Text(rowType.value)
-                    .fontWeight(.medium)
-                    .font(.title3)
-                    .foregroundStyle(color)
+                    .foregroundStyle(.primary)
             } icon: {
                 Image(systemSymbol: rowType.symbol)
-                    .font(.largeTitle)
-                    .foregroundStyle(color)
-                    .padding(.trailing, 20)
-                    .frame(width: 45, height: 45)
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(.white)
+                    .frame(width: tileSize, height: tileSize)
+                    .background(rowType.tint.gradient, in: .rect(cornerRadius: tileSize * 0.28))
             }
+            .withArrow()
         }
-        .buttonStyle(SettingRowStyle(color: color))
-    }
-}
-
-/// The root row's designed look: full-width leading content, the row's own padding, and a tinted
-/// background at a tenth of the row colour for exactly as long as the row is pressed. `.plain`
-/// has no hook for that background, which is why the row was previously a gesture pair rather
-/// than a `Button`; reading `isPressed` here keeps the pressed look and the tap-on-release
-/// behaviour of the original while letting the row be a real control.
-private struct SettingRowStyle: ButtonStyle {
-    let color: Color
-
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(.vertical, 10)
-            .padding(.horizontal, 20)
-            .background(configuration.isPressed ? color.opacity(0.1) : .clear)
-            .clipShape(.rect(cornerRadius: 10))
-            .contentShape(.rect)
     }
 }
 
@@ -186,22 +161,50 @@ extension SettingReducer.RootScreen {
             return .settingStateRouteAbout
         }
     }
+
+    /// The settings groups of the root list, in display order.
+    static let sections: [[SettingReducer.RootScreen]] = [
+        [.account],
+        [.general, .appearance, .reading],
+        [.download, .laboratory],
+        [.about]
+    ]
+
+    var tint: Color {
+        switch self {
+        case .account:
+            return .blue
+        case .general:
+            return .gray
+        case .appearance:
+            return .indigo
+        case .download:
+            return .green
+        case .reading:
+            return .orange
+        case .laboratory:
+            return .purple
+        case .about:
+            return .teal
+        }
+    }
+
     var symbol: SFSymbol {
         switch self {
         case .account:
             return .personFill
         case .general:
-            return .switch2
+            return .gearshape
         case .appearance:
-            return .circleRighthalfFilled
+            return .paintbrushPointedFill
         case .download:
-            return .squareAndArrowDownOnSquare
+            return .arrowDownCircleFill
         case .reading:
-            return .newspaper
+            return .bookFill
         case .laboratory:
             return .testtube2
         case .about:
-            return .infoCircle
+            return .infoCircleFill
         }
     }
 }
