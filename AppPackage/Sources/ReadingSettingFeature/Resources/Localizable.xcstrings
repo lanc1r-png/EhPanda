@@ -4,16 +4,16 @@
     "accessibility.scale_factor": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ times"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "%@-fach"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ times"
           }
         },
         "ja": {
@@ -26,6 +26,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@배"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ раз"
           }
         },
         "zh-Hans": {
@@ -45,16 +51,16 @@
     "automatic_layout": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Automatic Layout"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Automatisches Layout"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatic Layout"
           }
         },
         "ja": {
@@ -67,6 +73,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "자동 레이아웃"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Автоматическая раскладка"
           }
         },
         "zh-Hans": {
@@ -86,16 +98,16 @@
     "automatic_layout_description": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "On iPad and iPhone Duo, landscape shows two pages and portrait shows one, each in the direction selected above. Applies when you open the reader and when the orientation changes."
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Auf iPad und iPhone Duo werden im Querformat zwei Seiten und im Hochformat eine Seite in der gewählten Leserichtung angezeigt. Gilt beim Öffnen und beim Ändern der Bildschirmausrichtung."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On iPad and iPhone Duo, landscape shows two pages and portrait shows one, each in the direction selected above. Applies when you open the reader and when the orientation changes."
           }
         },
         "ja": {
@@ -108,6 +120,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iPad와 iPhone Duo에서 선택한 읽기 방향을 사용하며, 가로 화면에서는 두 페이지, 세로 화면에서는 한 페이지를 표시합니다. 뷰어를 열거나 화면 방향을 바꾸면 적용됩니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "На iPad и iPhone Duo в альбомной ориентации показываются две страницы, в портретной — одна, в направлении, выбранном выше. Применяется при открытии читалки и при смене ориентации."
           }
         },
         "zh-Hans": {
@@ -127,16 +145,16 @@
     "direction": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Direction"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Leserichtung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Direction"
           }
         },
         "ja": {
@@ -149,6 +167,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "방향"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Направление"
           }
         },
         "zh-Hans": {
@@ -168,16 +192,16 @@
     "double_tap_zoom": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Double-Tap Zoom"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Zoom bei Doppeltippen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Double-Tap Zoom"
           }
         },
         "ja": {
@@ -190,6 +214,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "더블 탭 확대 배율"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Увеличение двойным касанием"
           }
         },
         "zh-Hans": {
@@ -209,16 +239,16 @@
     "landscape_direction": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Landscape Direction"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Querformat"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Landscape Direction"
           }
         },
         "ja": {
@@ -231,6 +261,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "가로 읽기 방향"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Направление в альбомной ориентации"
           }
         },
         "zh-Hans": {
@@ -250,16 +286,16 @@
     "match_screen_orientation": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Match Screen Orientation"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "An Ausrichtung anpassen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Match Screen Orientation"
           }
         },
         "ja": {
@@ -272,6 +308,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "화면 방향에 맞추기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подстраиваться под ориентацию экрана"
           }
         },
         "zh-Hans": {
@@ -291,16 +333,16 @@
     "maximum_zoom": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Maximum Zoom"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Maximaler Zoom"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maximum Zoom"
           }
         },
         "ja": {
@@ -313,6 +355,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "최대 확대 배율"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Максимальное увеличение"
           }
         },
         "zh-Hans": {
@@ -332,16 +380,16 @@
     "page_spacing": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Page Spacing"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Seitenabstand"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Page Spacing"
           }
         },
         "ja": {
@@ -354,6 +402,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "페이지 간격"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Расстояние между страницами"
           }
         },
         "zh-Hans": {
@@ -373,16 +427,16 @@
     "portrait_direction": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Portrait Direction"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Hochformat"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portrait Direction"
           }
         },
         "ja": {
@@ -395,6 +449,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "세로 읽기 방향"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Направление в портретной ориентации"
           }
         },
         "zh-Hans": {
@@ -414,16 +474,16 @@
     "preload_limit": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Preload Limit"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Vorausladen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preload Limit"
           }
         },
         "ja": {
@@ -436,6 +496,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "미리 불러올 페이지"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Предзагрузка страниц"
           }
         },
         "zh-Hans": {
@@ -455,16 +521,16 @@
     "reading": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reading"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Lesen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading"
           }
         },
         "ja": {
@@ -477,6 +543,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "읽기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чтение"
           }
         },
         "zh-Hans": {
@@ -496,16 +568,16 @@
     "reading_appearance": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Appearance"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Darstellung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
           }
         },
         "ja": {
@@ -518,6 +590,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "화면 표시"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оформление"
           }
         },
         "zh-Hans": {

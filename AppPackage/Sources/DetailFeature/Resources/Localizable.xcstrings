@@ -1,183 +1,19 @@
 {
   "sourceLanguage": "en",
   "strings": {
-    "find_similar": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Find Similar"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ähnliche Galerien"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "類似ギャラリー"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "비슷한 갤러리"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "相似画廊"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "相似畫廊"
-          }
-        }
-      }
-    },
-    "metadata.gallery_info": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gallery Info"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Galerie-Infos"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ギャラリー情報"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "갤러리 정보"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "画廊信息"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "畫廊資訊"
-          }
-        }
-      }
-    },
-    "rate_gallery": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rate Gallery"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bewerten"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "評価する"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "별점 주기"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "评分"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "評分"
-          }
-        }
-      }
-    },
-    "rename_folder": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rename Folder"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ordner umbenennen"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "フォルダ名を変更"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "폴더 이름 변경"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "重命名文件夹"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "重新命名資料夾"
-          }
-        }
-      }
-    },
     "accessibility.add_to_favorites": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Add to Favorites"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Zu Favoriten hinzufügen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add to Favorites"
           }
         },
         "ja": {
@@ -190,6 +26,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "즐겨찾기에 추가"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить в избранное"
           }
         },
         "zh-Hans": {
@@ -209,16 +51,16 @@
     "accessibility.comment": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Comment"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Kommentar"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment"
           }
         },
         "ja": {
@@ -231,6 +73,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "댓글"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Комментарий"
           }
         },
         "zh-Hans": {
@@ -250,10 +98,10 @@
     "accessibility.credits_balance": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Credits balance: %#@balance@"
+            "value": "Credits-Guthaben: %#@balance@"
           },
           "substitutions": {
             "balance": {
@@ -272,10 +120,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Credits-Guthaben: %#@balance@"
+            "value": "Credits balance: %#@balance@"
           },
           "substitutions": {
             "balance": {
@@ -338,6 +186,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Баланс Credits: %#@balance@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -387,16 +241,16 @@
     "accessibility.download": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Download"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Herunterladen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download"
           }
         },
         "ja": {
@@ -409,6 +263,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다운로드"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузить"
           }
         },
         "zh-Hans": {
@@ -428,16 +288,16 @@
     "accessibility.downloaded": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Delete downloaded gallery"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Heruntergeladene Galerie löschen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete downloaded gallery"
           }
         },
         "ja": {
@@ -450,6 +310,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다운로드한 갤러리 삭제"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить загруженную галерею"
           }
         },
         "zh-Hans": {
@@ -469,10 +335,10 @@
     "accessibility.downloading": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Downloading %#@completed@ of %#@total@"
+            "value": "Lädt %#@completed@ von %#@total@ herunter"
           },
           "substitutions": {
             "completed": {
@@ -505,10 +371,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lädt %#@completed@ von %#@total@ herunter"
+            "value": "Downloading %#@completed@ of %#@total@"
           },
           "substitutions": {
             "completed": {
@@ -613,6 +479,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загружено %#@completed@ из %#@total@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -690,10 +562,10 @@
     "accessibility.gallery_points_balance": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gallery points balance: %#@balance@"
+            "value": "Galeriepunkte-Guthaben: %#@balance@"
           },
           "substitutions": {
             "balance": {
@@ -712,10 +584,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Galeriepunkte-Guthaben: %#@balance@"
+            "value": "Gallery points balance: %#@balance@"
           },
           "substitutions": {
             "balance": {
@@ -778,6 +650,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Баланс Gallery Points: %#@balance@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -827,16 +705,16 @@
     "accessibility.login": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Log in to download"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Zum Herunterladen anmelden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log in to download"
           }
         },
         "ja": {
@@ -849,6 +727,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다운로드하려면 로그인해야 합니다"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Войдите, чтобы загружать"
           }
         },
         "zh-Hans": {
@@ -868,16 +752,16 @@
     "accessibility.open_link": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Open link"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Link öffnen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open link"
           }
         },
         "ja": {
@@ -890,6 +774,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "링크 열기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть ссылку"
           }
         },
         "zh-Hans": {
@@ -909,16 +799,16 @@
     "accessibility.open_link_to": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Open link to %@"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Link zu %@ öffnen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open link to %@"
           }
         },
         "ja": {
@@ -931,6 +821,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ 링크 열기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть ссылку на %@"
           }
         },
         "zh-Hans": {
@@ -950,10 +846,10 @@
     "accessibility.partial": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Retry download. %#@available@ of %#@total@ pages downloaded."
+            "value": "Download erneut versuchen. %#@available@ von %#@total@ Seiten heruntergeladen."
           },
           "substitutions": {
             "available": {
@@ -986,10 +882,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Download erneut versuchen. %#@available@ von %#@total@ Seiten heruntergeladen."
+            "value": "Retry download. %#@available@ of %#@total@ pages downloaded."
           },
           "substitutions": {
             "available": {
@@ -1094,6 +990,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторить загрузку. Загружено страниц: %#@available@ из %#@total@."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1171,16 +1073,16 @@
     "accessibility.pause_action": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pause download"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Download pausieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause download"
           }
         },
         "ja": {
@@ -1193,6 +1095,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다운로드 일시 정지"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приостановить загрузку"
           }
         },
         "zh-Hans": {
@@ -1212,10 +1120,10 @@
     "accessibility.paused": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Resume download. Paused at %#@completed@ of %#@total@"
+            "value": "Download fortsetzen. Pausiert bei %#@completed@ von %#@total@"
           },
           "substitutions": {
             "completed": {
@@ -1248,10 +1156,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Download fortsetzen. Pausiert bei %#@completed@ von %#@total@"
+            "value": "Resume download. Paused at %#@completed@ of %#@total@"
           },
           "substitutions": {
             "completed": {
@@ -1356,6 +1264,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжить загрузку. Приостановлена на %#@completed@ из %#@total@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1433,16 +1347,16 @@
     "accessibility.preparing": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Preparing download"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Download wird vorbereitet"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparing download"
           }
         },
         "ja": {
@@ -1455,6 +1369,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다운로드 준비 중"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подготовка загрузки"
           }
         },
         "zh-Hans": {
@@ -1474,10 +1394,10 @@
     "accessibility.preview_page": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Page %#@page@"
+            "value": "Seite %#@page@"
           },
           "substitutions": {
             "page": {
@@ -1496,10 +1416,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seite %#@page@"
+            "value": "Page %#@page@"
           },
           "substitutions": {
             "page": {
@@ -1562,6 +1482,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Страница %#@page@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1611,16 +1537,16 @@
     "accessibility.queued": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Queued"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "In der Warteschlange"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Queued"
           }
         },
         "ja": {
@@ -1633,6 +1559,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다운로드 대기 중"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В очереди"
           }
         },
         "zh-Hans": {
@@ -1652,16 +1584,16 @@
     "accessibility.remove_from_favorites": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Remove from Favorites"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Aus Favoriten entfernen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove from Favorites"
           }
         },
         "ja": {
@@ -1674,6 +1606,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "즐겨찾기에서 삭제"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Убрать из избранного"
           }
         },
         "zh-Hans": {
@@ -1693,16 +1631,16 @@
     "accessibility.repair": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Repair download"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Download reparieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repair download"
           }
         },
         "ja": {
@@ -1715,6 +1653,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다운로드 복구"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Восстановить загрузку"
           }
         },
         "zh-Hans": {
@@ -1734,16 +1678,16 @@
     "accessibility.retry": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Retry download"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Download erneut versuchen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retry download"
           }
         },
         "ja": {
@@ -1756,6 +1700,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다운로드 재시도"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторить загрузку"
           }
         },
         "zh-Hans": {
@@ -1875,6 +1825,46 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@quantity@"
+          },
+          "substitutions": {
+            "quantity": {
+              "argNum": 1,
+              "formatSpecifier": ".1f",
+              "variations": {
+                "plural": {
+                  "few": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "гибибайта"
+                    }
+                  },
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "гибибайт"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "гибибайт"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "гибибайта"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1919,7 +1909,7 @@
             }
           }
         }
-            }
+      }
     },
     "accessibility.size.kibibyte": {
       "extractionState": "manual",
@@ -2024,6 +2014,46 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@quantity@"
+          },
+          "substitutions": {
+            "quantity": {
+              "argNum": 1,
+              "formatSpecifier": ".1f",
+              "variations": {
+                "plural": {
+                  "few": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "кибибайта"
+                    }
+                  },
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "кибибайт"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "кибибайт"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "кибибайта"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2068,7 +2098,7 @@
             }
           }
         }
-            }
+      }
     },
     "accessibility.size.mebibyte": {
       "extractionState": "manual",
@@ -2173,6 +2203,46 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@quantity@"
+          },
+          "substitutions": {
+            "quantity": {
+              "argNum": 1,
+              "formatSpecifier": ".1f",
+              "variations": {
+                "plural": {
+                  "few": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "мебибайта"
+                    }
+                  },
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "мебибайт"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "мебибайт"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "мебибайта"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2217,15 +2287,15 @@
             }
           }
         }
-            }
+      }
     },
     "accessibility.torrent_downloads": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Completed downloads: %#@count@"
+            "value": "Abgeschlossene Downloads: %#@count@"
           },
           "substitutions": {
             "count": {
@@ -2244,10 +2314,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Abgeschlossene Downloads: %#@count@"
+            "value": "Completed downloads: %#@count@"
           },
           "substitutions": {
             "count": {
@@ -2310,6 +2380,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Завершённых загрузок: %#@count@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2359,7 +2435,7 @@
     "accessibility.torrent_peers": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Peers: %#@count@"
@@ -2381,7 +2457,7 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Peers: %#@count@"
@@ -2447,6 +2523,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пиры: %#@count@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2496,7 +2578,7 @@
     "accessibility.torrent_seeds": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Seeds: %#@count@"
@@ -2518,7 +2600,7 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Seeds: %#@count@"
@@ -2584,6 +2666,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сиды: %#@count@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2633,16 +2721,16 @@
     "accessibility.update": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Update download"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Download aktualisieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Update download"
           }
         },
         "ja": {
@@ -2655,6 +2743,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다운로드 업데이트"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обновить загрузку"
           }
         },
         "zh-Hans": {
@@ -2674,16 +2768,16 @@
     "accessibility.voted_down": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Voted down"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Dagegen gestimmt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voted down"
           }
         },
         "ja": {
@@ -2696,6 +2790,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "반대 투표함"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Голос «против»"
           }
         },
         "zh-Hans": {
@@ -2715,16 +2815,16 @@
     "accessibility.voted_up": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Voted up"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Dafür gestimmt"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voted up"
           }
         },
         "ja": {
@@ -2737,6 +2837,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "찬성 투표함"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Голос «за»"
           }
         },
         "zh-Hans": {
@@ -2756,16 +2862,16 @@
     "archives": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Archives"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Archiv"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archives"
           }
         },
         "ja": {
@@ -2778,6 +2884,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "아카이브"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Архивы"
           }
         },
         "zh-Hans": {
@@ -2797,16 +2909,16 @@
     "archives_action": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Archives"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Archiv"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archives"
           }
         },
         "ja": {
@@ -2819,6 +2931,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "아카이브"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Архивы"
           }
         },
         "zh-Hans": {
@@ -2835,19 +2953,677 @@
         }
       }
     },
-    "comments": {
+    "comment.block": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ blockieren"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Comments"
+            "value": "Block %@"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ さんをブロック"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 님 차단"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Заблокировать: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "屏蔽 %@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "封鎖 %@"
+          }
+        }
+      }
+    },
+    "comment.block.confirm": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blockieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Block"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブロック"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "차단"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Заблокировать"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "屏蔽"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "封鎖"
+          }
+        }
+      }
+    },
+    "comment.block.confirm_body": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Kommentare dieser Person werden auf diesem Gerät eingeklappt. Du kannst die Blockierung jederzeit aufheben."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Their comments will be collapsed on this device. You can unblock them anytime."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このデバイスでは、このユーザーのコメントが折りたたまれて表示されます。ブロックはいつでも解除できます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 기기에서 이 사용자의 댓글이 접혀서 표시됩니다. 언제든지 차단을 해제할 수 있습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Комментарии этого пользователя будут свёрнуты на этом устройстве. Разблокировать его можно в любой момент."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在此设备上，此用户的评论将被折叠。你可以随时取消屏蔽。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在此裝置上，這位使用者的留言將會收合。你可以隨時解除封鎖。"
+          }
+        }
+      }
+    },
+    "comment.block.confirm_title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ blockieren?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Block %@?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ さんをブロックしますか？"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 님을 차단할까요?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Заблокировать: %@?"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要屏蔽 %@ 吗？"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要封鎖 %@ 嗎？"
+          }
+        }
+      }
+    },
+    "comment.blocked_row": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kommentar von einer Person, die du blockiert hast"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment from a user you've blocked"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブロックしたユーザーのコメント"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "차단한 사용자의 댓글"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Комментарий заблокированного вами пользователя"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "来自已屏蔽用户的评论"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "來自已封鎖使用者的留言"
+          }
+        }
+      }
+    },
+    "comment.blocked_row.hide": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausblenden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隠す"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "숨기기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скрыть"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隐藏"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隱藏"
+          }
+        }
+      }
+    },
+    "comment.blocked_row.show": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anzeigen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "表示"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "보기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "显示"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "顯示"
+          }
+        }
+      }
+    },
+    "comment.filter.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er enthält möglicherweise hasserfüllte, bedrohliche oder belästigende Sprache."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It may contain hateful, threatening or harassing language."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "差別的、脅迫的、または嫌がらせにあたる表現が含まれている可能性があります。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "혐오, 위협 또는 괴롭힘에 해당하는 표현이 포함되어 있을 수 있습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Он может содержать оскорбления, угрозы или травлю."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "其中可能含有仇恨、威胁或骚扰性的言论。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "其中可能含有仇恨、威脅或騷擾性的言論。"
+          }
+        }
+      }
+    },
+    "comment.filter.edit": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bearbeiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "編集する"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "수정"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменить"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "编辑"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "編輯"
+          }
+        }
+      }
+    },
+    "comment.filter.post_anyway": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trotzdem veröffentlichen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Post Anyway"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このまま投稿"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "그래도 게시"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всё равно отправить"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仍要发布"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仍要發表"
+          }
+        }
+      }
+    },
+    "comment.filter.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diesen Kommentar veröffentlichen?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Post this comment?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このコメントを投稿しますか？"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 댓글을 게시할까요?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отправить этот комментарий?"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要发布这条评论吗？"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要發表這則留言嗎？"
+          }
+        }
+      }
+    },
+    "comment.report": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auf %@ melden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Report on %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ で通報"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@에 신고"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пожаловаться на сайте %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 %@ 上举报"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 %@ 上檢舉"
+          }
+        }
+      }
+    },
+    "comment.report.open": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meldeseite öffnen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Report Page"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通報ページを開く"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "신고 페이지 열기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть страницу жалобы"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开举报页面"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開啟檢舉頁面"
+          }
+        }
+      }
+    },
+    "comment.unblock": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blockierung von %@ aufheben"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unblock %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ さんのブロックを解除"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 님 차단 해제"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разблокировать: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消屏蔽 %@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解除封鎖 %@"
+          }
+        }
+      }
+    },
+    "comments": {
+      "extractionState": "manual",
+      "localizations": {
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Kommentare"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comments"
           }
         },
         "ja": {
@@ -2860,6 +3636,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "댓글"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Комментарии"
           }
         },
         "zh-Hans": {
@@ -2879,16 +3661,16 @@
     "delete_folder": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This will delete the folder and all downloaded galleries inside it."
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Der Ordner und alle heruntergeladenen Galerien darin werden gelöscht."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This will delete the folder and all downloaded galleries inside it."
           }
         },
         "ja": {
@@ -2901,6 +3683,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "폴더와 그 안에 다운로드한 모든 갤러리를 삭제합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Папка и все загруженные в неё галереи будут удалены."
           }
         },
         "zh-Hans": {
@@ -2920,16 +3708,16 @@
     "download_to_hath_client": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Download to H@H Client"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Auf H@H-Client laden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download to H@H Client"
           }
         },
         "ja": {
@@ -2942,6 +3730,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "H@H 클라이언트로 저장"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузить в клиент H@H"
           }
         },
         "zh-Hans": {
@@ -2961,16 +3755,16 @@
     "edit_comment": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Edit Comment"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Kommentar bearbeiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Comment"
           }
         },
         "ja": {
@@ -2983,6 +3777,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "댓글 수정"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменить комментарий"
           }
         },
         "zh-Hans": {
@@ -3002,16 +3802,16 @@
     "empty_folders": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Folders you create will appear here."
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Deine Ordner erscheinen hier."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folders you create will appear here."
           }
         },
         "ja": {
@@ -3024,6 +3824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "만든 폴더가 여기에 표시됩니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Созданные вами папки появятся здесь."
           }
         },
         "zh-Hans": {
@@ -3043,16 +3849,16 @@
     "favorited": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Favorited"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Favorisiert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorited"
           }
         },
         "ja": {
@@ -3065,6 +3871,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "즐겨찾기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В избранном"
           }
         },
         "zh-Hans": {
@@ -3084,6 +3896,34 @@
     "favorited_unit": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "Mal"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "Mal"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -3105,34 +3945,6 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "Times"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%#@count@"
-          },
-          "substitutions": {
-            "count": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "Mal"
-                    }
-                  },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "Mal"
                     }
                   }
                 }
@@ -3177,6 +3989,46 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "회"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "few": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "раза"
+                    }
+                  },
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "раз"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "раз"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "раза"
                     }
                   }
                 }
@@ -3233,16 +4085,16 @@
     "file_size": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "File Size"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Größe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Size"
           }
         },
         "ja": {
@@ -3255,6 +4107,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "파일 크기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Размер файла"
           }
         },
         "zh-Hans": {
@@ -3271,19 +4129,66 @@
         }
       }
     },
-    "folder_name": {
+    "find_similar": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ähnliche Galerien"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Folder Name"
+            "value": "Find Similar"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "類似ギャラリー"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "비슷한 갤러리"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Найти похожие"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "相似画廊"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "相似畫廊"
+          }
+        }
+      }
+    },
+    "folder_name": {
+      "extractionState": "manual",
+      "localizations": {
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Ordnername"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder Name"
           }
         },
         "ja": {
@@ -3296,6 +4201,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "폴더 이름"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Название папки"
           }
         },
         "zh-Hans": {
@@ -3315,16 +4226,16 @@
     "folders": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Folders"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Ordner"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folders"
           }
         },
         "ja": {
@@ -3337,6 +4248,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "폴더"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Папки"
           }
         },
         "zh-Hans": {
@@ -3356,16 +4273,16 @@
     "hath_client_not_found": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This feature needs an H@H client."
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Dafür brauchst du einen H@H-Client."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This feature needs an H@H client."
           }
         },
         "ja": {
@@ -3378,6 +4295,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "H@H 클라이언트가 필요합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Для этой функции нужен клиент H@H."
           }
         },
         "zh-Hans": {
@@ -3397,16 +4320,16 @@
     "hath_client_not_online": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your H@H client is offline."
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Dein H@H-Client ist offline."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your H@H client is offline."
           }
         },
         "ja": {
@@ -3419,6 +4342,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "H@H 클라이언트가 오프라인입니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш клиент H@H не в сети."
           }
         },
         "zh-Hans": {
@@ -3438,16 +4367,16 @@
     "images": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Images"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Bilder"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Images"
           }
         },
         "ja": {
@@ -3460,6 +4389,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이미지"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изображения"
           }
         },
         "zh-Hans": {
@@ -3479,16 +4414,16 @@
     "invalid_resolution": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Can’t download at this resolution."
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Diese Auflösung ist nicht verfügbar."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can’t download at this resolution."
           }
         },
         "ja": {
@@ -3501,6 +4436,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 해상도로는 다운로드할 수 없습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузка в этом разрешении невозможна."
           }
         },
         "zh-Hans": {
@@ -3520,13 +4461,13 @@
     "links": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Links"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Links"
@@ -3542,6 +4483,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "링크"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ссылки"
           }
         },
         "zh-Hans": {
@@ -3561,16 +4508,16 @@
     "metadata.archive_URL": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Archive URL"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Archiv-URL"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archive URL"
           }
         },
         "ja": {
@@ -3583,6 +4530,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "아카이브 주소"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ссылка на архив"
           }
         },
         "zh-Hans": {
@@ -3602,16 +4555,16 @@
     "metadata.average_rating": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Average Rating"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Durchschnittliche Bewertung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Average Rating"
           }
         },
         "ja": {
@@ -3624,6 +4577,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "평균 별점"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Средняя оценка"
           }
         },
         "zh-Hans": {
@@ -3643,16 +4602,16 @@
     "metadata.category": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Category"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Kategorie"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Category"
           }
         },
         "ja": {
@@ -3665,6 +4624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "카테고리"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Категория"
           }
         },
         "zh-Hans": {
@@ -3684,16 +4649,16 @@
     "metadata.cover_URL": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cover URL"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Cover-URL"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cover URL"
           }
         },
         "ja": {
@@ -3706,6 +4671,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "표지 주소"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ссылка на обложку"
           }
         },
         "zh-Hans": {
@@ -3725,16 +4696,16 @@
     "metadata.favorited": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Favorited"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Favorisiert"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorited"
           }
         },
         "ja": {
@@ -3747,6 +4718,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "즐겨찾기 여부"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В избранном"
           }
         },
         "zh-Hans": {
@@ -3766,16 +4743,16 @@
     "metadata.favorited_times": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Times Favorited"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Anzahl Favorisierungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Times Favorited"
           }
         },
         "ja": {
@@ -3788,6 +4765,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "즐겨찾기 수"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Раз добавлено в избранное"
           }
         },
         "zh-Hans": {
@@ -3807,16 +4790,16 @@
     "metadata.file_size": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "File Size"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Dateigröße"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Size"
           }
         },
         "ja": {
@@ -3829,6 +4812,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "파일 크기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Размер файла"
           }
         },
         "zh-Hans": {
@@ -3848,16 +4837,16 @@
     "metadata.gallery_URL": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gallery URL"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Galerie-URL"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gallery URL"
           }
         },
         "ja": {
@@ -3870,6 +4859,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "갤러리 주소"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ссылка на галерею"
           }
         },
         "zh-Hans": {
@@ -3886,16 +4881,63 @@
         }
       }
     },
+    "metadata.gallery_info": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Galerie-Infos"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gallery Info"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ギャラリー情報"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "갤러리 정보"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О галерее"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画廊信息"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "畫廊資訊"
+          }
+        }
+      }
+    },
     "metadata.id": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "ID"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "ID"
@@ -3908,6 +4950,12 @@
           }
         },
         "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ID"
+          }
+        },
+        "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "ID"
@@ -3930,16 +4978,16 @@
     "metadata.japanese_title": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Japanese Title"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Japanischer Titel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Japanese Title"
           }
         },
         "ja": {
@@ -3952,6 +5000,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "일본어 제목"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Японское название"
           }
         },
         "zh-Hans": {
@@ -3971,16 +5025,16 @@
     "metadata.language": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Language"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Sprache"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
           }
         },
         "ja": {
@@ -3993,6 +5047,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "언어"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Язык"
           }
         },
         "zh-Hans": {
@@ -4012,16 +5072,16 @@
     "metadata.my_rating": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "My Rating"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Meine Bewertung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My Rating"
           }
         },
         "ja": {
@@ -4034,6 +5094,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "내 별점"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Моя оценка"
           }
         },
         "zh-Hans": {
@@ -4053,16 +5119,16 @@
     "metadata.no": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Nein"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No"
           }
         },
         "ja": {
@@ -4075,6 +5141,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "아니요"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет"
           }
         },
         "zh-Hans": {
@@ -4094,16 +5166,16 @@
     "metadata.none": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "None"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Keine"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None"
           }
         },
         "ja": {
@@ -4116,6 +5188,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "없음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нет"
           }
         },
         "zh-Hans": {
@@ -4135,16 +5213,16 @@
     "metadata.page_count": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Length"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Seitenzahl"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Length"
           }
         },
         "ja": {
@@ -4157,6 +5235,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "페이지 수"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Объём"
           }
         },
         "zh-Hans": {
@@ -4176,16 +5260,16 @@
     "metadata.parent_URL": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parent URL"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Übergeordnete URL"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parent URL"
           }
         },
         "ja": {
@@ -4198,6 +5282,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "상위 갤러리 주소"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ссылка на родителя"
           }
         },
         "zh-Hans": {
@@ -4217,16 +5307,16 @@
     "metadata.posted_date": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Posted"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Veröffentlicht am"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posted"
           }
         },
         "ja": {
@@ -4239,6 +5329,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "업로드 날짜"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Опубликовано"
           }
         },
         "zh-Hans": {
@@ -4258,16 +5354,16 @@
     "metadata.rating_count": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ratings"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Anzahl Bewertungen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ratings"
           }
         },
         "ja": {
@@ -4280,6 +5376,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "별점 수"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оценок"
           }
         },
         "zh-Hans": {
@@ -4299,16 +5401,16 @@
     "metadata.title": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Title"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Titel"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Title"
           }
         },
         "ja": {
@@ -4321,6 +5423,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "제목"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Название"
           }
         },
         "zh-Hans": {
@@ -4340,13 +5448,13 @@
     "metadata.token": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Token"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Token"
@@ -4362,6 +5470,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "토큰"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Токен"
           }
         },
         "zh-Hans": {
@@ -4381,16 +5495,16 @@
     "metadata.torrent_URL": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Torrent URL"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Torrent-URL"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Torrent URL"
           }
         },
         "ja": {
@@ -4403,6 +5517,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "토렌트 주소"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ссылка на торрент"
           }
         },
         "zh-Hans": {
@@ -4422,16 +5542,16 @@
     "metadata.torrent_count": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Torrents"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Anzahl Torrents"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Torrents"
           }
         },
         "ja": {
@@ -4444,6 +5564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "토렌트 수"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Торренты"
           }
         },
         "zh-Hans": {
@@ -4463,13 +5589,13 @@
     "metadata.uploader": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Uploader"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Uploader"
@@ -4485,6 +5611,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "업로더"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузчик"
           }
         },
         "zh-Hans": {
@@ -4504,16 +5636,16 @@
     "metadata.visibility": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Visible"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Sichtbarkeit"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visible"
           }
         },
         "ja": {
@@ -4526,6 +5658,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "표시 여부"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Видимость"
           }
         },
         "zh-Hans": {
@@ -4545,16 +5683,16 @@
     "metadata.yes": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yes"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Ja"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yes"
           }
         },
         "ja": {
@@ -4567,6 +5705,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "네"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Да"
           }
         },
         "zh-Hans": {
@@ -4586,16 +5730,16 @@
     "new_folder": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New Folder"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Neuer Ordner"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Folder"
           }
         },
         "ja": {
@@ -4608,6 +5752,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "새 폴더"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новая папка"
           }
         },
         "zh-Hans": {
@@ -4627,16 +5777,16 @@
     "no_folders": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No Folders Yet"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Noch keine Ordner"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Folders Yet"
           }
         },
         "ja": {
@@ -4649,6 +5799,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "아직 폴더가 없습니다"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Папок пока нет"
           }
         },
         "zh-Hans": {
@@ -4668,16 +5824,16 @@
     "page_count": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Length"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Seitenzahl"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Length"
           }
         },
         "ja": {
@@ -4690,6 +5846,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "페이지 수"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Объём"
           }
         },
         "zh-Hans": {
@@ -4709,34 +5871,6 @@
     "page_count_unit": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%#@count@"
-          },
-          "substitutions": {
-            "count": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "Page"
-                    }
-                  },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "Pages"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -4758,6 +5892,34 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "Seiten"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "Page"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "Pages"
                     }
                   }
                 }
@@ -4802,6 +5964,46 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "페이지"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "few": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "страницы"
+                    }
+                  },
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "страниц"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "страница"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "страницы"
                     }
                   }
                 }
@@ -4858,16 +6060,16 @@
     "post_comment": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Post Comment"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Kommentar schreiben"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Post Comment"
           }
         },
         "ja": {
@@ -4880,6 +6082,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "댓글 작성"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отправить комментарий"
           }
         },
         "zh-Hans": {
@@ -4899,16 +6107,16 @@
     "previews": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Previews"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Vorschau"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previews"
           }
         },
         "ja": {
@@ -4921,6 +6129,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "미리보기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Предпросмотр"
           }
         },
         "zh-Hans": {
@@ -4937,37 +6151,56 @@
         }
       }
     },
-    "ratings_count": {
+    "rate_gallery": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewerten"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%#@count@"
-          },
-          "substitutions": {
-            "count": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg Ratings"
-                    }
-                  },
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg Rating"
-                    }
-                  }
-                }
-              }
-            }
+            "value": "Rate Gallery"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "評価する"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "별점 주기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оценить галерею"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "评分"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "評分"
+          }
+        }
+      }
+    },
+    "ratings_count": {
+      "extractionState": "manual",
+      "localizations": {
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -4979,16 +6212,44 @@
               "formatSpecifier": "lld",
               "variations": {
                 "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg Stimme"
+                    }
+                  },
                   "other": {
                     "stringUnit": {
                       "state": "translated",
                       "value": "%arg Stimmen"
                     }
-                  },
+                  }
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
                   "one": {
                     "stringUnit": {
                       "state": "translated",
-                      "value": "%arg Stimme"
+                      "value": "%arg Rating"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg Ratings"
                     }
                   }
                 }
@@ -5033,6 +6294,46 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "별점 %arg개"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "few": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg оценки"
+                    }
+                  },
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg оценок"
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg оценка"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "%arg оценки"
                     }
                   }
                 }
@@ -5090,16 +6391,16 @@
       "comment": "Verb on the button that opens this gallery in the reader.",
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Read"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Lesen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read"
           }
         },
         "ja": {
@@ -5112,6 +6413,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "읽기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Читать"
           }
         },
         "zh-Hans": {
@@ -5131,16 +6438,16 @@
     "redownload": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Redownload"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Erneut laden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redownload"
           }
         },
         "ja": {
@@ -5153,6 +6460,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다시 다운로드"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузить заново"
           }
         },
         "zh-Hans": {
@@ -5172,16 +6485,16 @@
     "redownload_gallery": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Redownload Gallery?"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Galerie erneut herunterladen?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redownload Gallery?"
           }
         },
         "ja": {
@@ -5194,6 +6507,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "갤러리를 다시 다운로드할까요?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузить галерею заново?"
           }
         },
         "zh-Hans": {
@@ -5213,16 +6532,16 @@
     "redownload_gallery_description": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This starts the download over and replaces any pages already saved."
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Der Download beginnt von vorn und ersetzt bereits gespeicherte Seiten."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This starts the download over and replaces any pages already saved."
           }
         },
         "ja": {
@@ -5235,6 +6554,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "처음부터 다시 다운로드하고 이미 저장된 페이지를 대체합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузка начнётся сначала, уже сохранённые страницы будут заменены."
           }
         },
         "zh-Hans": {
@@ -5251,19 +6576,66 @@
         }
       }
     },
-    "repair": {
+    "rename_folder": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordner umbenennen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Repair"
+            "value": "Rename Folder"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダ名を変更"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "폴더 이름 변경"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переименовать папку"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重命名文件夹"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新命名資料夾"
+          }
+        }
+      }
+    },
+    "repair": {
+      "extractionState": "manual",
+      "localizations": {
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Reparieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repair"
           }
         },
         "ja": {
@@ -5276,6 +6648,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "복구"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Восстановить"
           }
         },
         "zh-Hans": {
@@ -5295,16 +6673,16 @@
     "repair_download": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Repair Download?"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Download reparieren?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repair Download?"
           }
         },
         "ja": {
@@ -5317,6 +6695,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다운로드를 복구할까요?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Восстановить загрузку?"
           }
         },
         "zh-Hans": {
@@ -5336,16 +6720,16 @@
     "repair_download_description": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Only missing or damaged pages will be downloaded again."
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Nur fehlende oder beschädigte Seiten werden neu geladen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only missing or damaged pages will be downloaded again."
           }
         },
         "ja": {
@@ -5358,6 +6742,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "누락되었거나 손상된 페이지만 다시 다운로드합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Будут загружены заново только отсутствующие или повреждённые страницы."
           }
         },
         "zh-Hans": {
@@ -5374,19 +6764,1053 @@
         }
       }
     },
-    "saved_details": {
+    "report.comment_footer": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Kommentar ist schon eingetragen, weil Meldungen auf %@ immer die ganze Galerie betreffen. Ergänze, warum du ihn meldest."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Couldn’t refresh. Showing saved details."
+            "value": "The comment is filled in for you, because %@'s reports cover the whole gallery. Add why you're reporting it."
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ の通報はギャラリー全体が対象のため、コメントはあらかじめ入力されています。通報する理由を書き足してください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@의 신고는 갤러리 전체를 대상으로 하므로 댓글이 미리 입력되어 있습니다. 신고하는 이유를 덧붙여 주세요."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Комментарий заполнен за вас: жалобы на %@ относятся ко всей галерее. Добавьте, почему вы жалуетесь."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "由于 %@ 的举报针对整个画廊，评论已帮你填好。请补充举报的原因。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "由於 %@ 的檢舉針對整個畫廊，留言已幫你填好。請補充檢舉的原因。"
+          }
+        }
+      }
+    },
+    "report.details": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "詳細"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상세 내용"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подробности"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "详细说明"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "詳細說明"
+          }
+        }
+      }
+    },
+    "report.email": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "E-Mail"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Email"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "メールアドレス"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이메일"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Эл. почта"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "电子邮箱"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "電子郵件"
+          }
+        }
+      }
+    },
+    "report.email.footer": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ verlangt eine funktionierende E-Mail-Adresse. Sie wird nur mit dieser Meldung gesendet."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ requires a working email address. It's sent only with this report."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ では、受信できるメールアドレスが必要です。この通報と一緒に送信されるだけです。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@에서는 사용 중인 이메일 주소가 필요합니다. 이 신고와 함께만 전송됩니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Для %@ нужен действующий адрес эл. почты. Он отправляется только вместе с этой жалобой."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 要求填写可用的电子邮箱，它只会随这份举报一起发送。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 要求填寫可用的電子郵件，它只會隨這份檢舉一起傳送。"
+          }
+        }
+      }
+    },
+    "report.email.invalid": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gib eine funktionierende E-Mail-Adresse ein."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter a working email address."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "受信できるメールアドレスを入力してください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사용 중인 이메일 주소를 입력해 주세요."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Введите действующий адрес эл. почты."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请输入可用的电子邮箱。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請輸入可用的電子郵件。"
+          }
+        }
+      }
+    },
+    "report.email.placeholder": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "name@example.com"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "name@example.com"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "name@example.com"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "name@example.com"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "name@example.com"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "name@example.com"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "name@example.com"
+          }
+        }
+      }
+    },
+    "report.failed.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine Meldung wurde nicht gesendet. Versuche es erneut oder melde es stattdessen auf der Seite von %@."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your report wasn't sent. Try again, or report on %@'s page instead."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通報は送信されませんでした。もう一度お試しいただくか、%@ の通報ページをご利用ください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "신고가 전송되지 않았습니다. 다시 시도하거나 %@의 신고 페이지를 이용해 주세요."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Жалоба не отправлена. Повторите попытку или пожалуйтесь на странице сайта %@."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "举报未发送。请重试，或改用 %@ 的举报页面。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "檢舉未傳送。請重試，或改用 %@ 的檢舉頁面。"
+          }
+        }
+      }
+    },
+    "report.failed.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meldung nicht gesendet"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't Send Report"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通報を送信できません"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "신고를 보내지 못함"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось отправить жалобу"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法发送举报"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法傳送檢舉"
+          }
+        }
+      }
+    },
+    "report.help.illegal": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beschreibe, was illegal ist und auf welchen Seiten es zu finden ist."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Describe what's illegal and which pages it's on."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "何が違法なのか、どのページにあるのかを書いてください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "무엇이 불법인지, 어느 페이지에 있는지 적어 주세요."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Опишите, что именно незаконно и на каких страницах."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请说明哪些内容违法，以及出现在哪些页面。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請說明哪些內容違法，以及出現在哪些頁面。"
+          }
+        }
+      }
+    },
+    "report.help.illegal_warning": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meldungen, die keine illegalen Inhalte betreffen, auch Urheberrechtsanfragen, können dazu führen, dass du auf %@ gesperrt wirst."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reports that aren't about illegal content, including copyright requests, can get you banned from %@."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "違法コンテンツ以外の通報（著作権に関する申し立てを含む）を送ると、%@ の利用を停止されることがあります。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "불법 콘텐츠가 아닌 내용을 신고하면(저작권 요청 포함) %@ 이용이 제한될 수 있습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Жалобы, не связанные с незаконным контентом (в том числе требования об авторских правах), могут привести к блокировке на %@."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "如果举报的不是违法内容（包括版权请求），你可能会被 %@ 封禁。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "如果檢舉的不是違法內容（包括著作權請求），你可能會被 %@ 停權。"
+          }
+        }
+      }
+    },
+    "report.intro": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine Meldung geht an das Team von %@. EhPanda speichert keine Kopie."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your report goes to %@'s staff. EhPanda doesn't keep a copy."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通報は %@ の運営チームに届きます。EhPanda は内容を保存しません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "신고 내용은 %@ 운영진에게 전달됩니다. EhPanda는 사본을 보관하지 않습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваша жалоба будет отправлена администрации сайта %@. EhPanda копию не хранит."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "举报会发送给 %@ 的管理人员，EhPanda 不会保存副本。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "檢舉會傳送給 %@ 的管理人員，EhPanda 不會保存副本。"
+          }
+        }
+      }
+    },
+    "report.loading": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meldeformular wird geladen …"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading the report form…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通報フォームを読み込み中…"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "신고 양식을 불러오는 중…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузка формы жалобы…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在加载举报表单…"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在載入檢舉表單⋯"
+          }
+        }
+      }
+    },
+    "report.reason": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grund"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reason"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "理由"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사유"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Причина"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "原因"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "原因"
+          }
+        }
+      }
+    },
+    "report.reason.child": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kinderpornografie"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Child pornography"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "児童ポルノ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "아동 성착취물"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Детская порнография"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "儿童色情"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "兒童色情"
+          }
+        }
+      }
+    },
+    "report.reason.illegal": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Andere illegale Inhalte"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Other illegal content"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "その他の違法コンテンツ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "기타 불법 콘텐츠"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Другой незаконный контент"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "其他违法内容"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "其他違法內容"
+          }
+        }
+      }
+    },
+    "report.send": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meldung senden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send Report"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通報を送信"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "신고 보내기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отправить жалобу"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "发送举报"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "傳送檢舉"
+          }
+        }
+      }
+    },
+    "report.sending": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird gesendet …"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sending…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "送信中…"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "보내는 중…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отправка…"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在发送…"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在傳送⋯"
+          }
+        }
+      }
+    },
+    "report.sent.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine Meldung wurde an das Team von %@ gesendet."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your report was sent to %@'s staff."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通報は %@ の運営チームに送信されました。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "신고 내용이 %@ 운영진에게 전송되었습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваша жалоба отправлена администрации сайта %@."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你的举报已发送给 %@ 的管理人员。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你的檢舉已傳送給 %@ 的管理人員。"
+          }
+        }
+      }
+    },
+    "report.sent.done": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fertig"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完了"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "완료"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完成"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完成"
+          }
+        }
+      }
+    },
+    "report.sent.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meldung gesendet"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Report Sent"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通報を送信しました"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "신고를 보냈습니다"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Жалоба отправлена"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "举报已发送"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "檢舉已傳送"
+          }
+        }
+      }
+    },
+    "report.unavailable.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ hat die Meldeseite möglicherweise geändert. Du kannst dort trotzdem melden."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ may have changed its report page. You can still report there."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ の通報ページが変更された可能性があります。そのページからは引き続き通報できます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@의 신고 페이지가 바뀌었을 수 있습니다. 해당 페이지에서는 계속 신고할 수 있습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Возможно, %@ изменил страницу жалоб. Вы по-прежнему можете пожаловаться там."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 的举报页面可能已更改，你仍可以在那里举报。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 的檢舉頁面可能已變更，你仍可以在那裡檢舉。"
+          }
+        }
+      }
+    },
+    "report.unavailable.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meldeformular nicht verfügbar"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't Load the Report Form"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通報フォームを読み込めません"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "신고 양식을 불러올 수 없음"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось загрузить форму жалобы"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法加载举报表单"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法載入檢舉表單"
+          }
+        }
+      }
+    },
+    "saved_details": {
+      "extractionState": "manual",
+      "localizations": {
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Aktualisierung fehlgeschlagen. Es werden die gespeicherten Details angezeigt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn’t refresh. Showing saved details."
           }
         },
         "ja": {
@@ -5399,6 +7823,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "최신 정보를 불러오지 못해 저장된 정보를 표시합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось обновить. Показаны сохранённые данные."
           }
         },
         "zh-Hans": {
@@ -5418,13 +7848,13 @@
     "torrents": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Torrents"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Torrents"
@@ -5440,6 +7870,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "토렌트"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Торренты"
           }
         },
         "zh-Hans": {
@@ -5459,7 +7895,7 @@
     "torrents_count": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Torrents (%#@count@)"
@@ -5481,7 +7917,7 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Torrents (%#@count@)"
@@ -5547,6 +7983,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Торренты (%#@count@)"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5596,16 +8038,16 @@
     "update_download": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Update Download?"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Download aktualisieren?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Update Download?"
           }
         },
         "ja": {
@@ -5618,6 +8060,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다운로드를 업데이트할까요?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обновить загрузку?"
           }
         },
         "zh-Hans": {
@@ -5637,16 +8085,16 @@
     "update_download_description": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This replaces your copy with the gallery’s newest version."
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Die Galerie wird auf die neueste Online-Version aktualisiert."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This replaces your copy with the gallery’s newest version."
           }
         },
         "ja": {
@@ -5659,6 +8107,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "온라인의 최신 버전으로 다시 다운로드합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваша копия будет заменена новейшей версией галереи."
           }
         },
         "zh-Hans": {
@@ -5678,16 +8132,16 @@
     "vote_down": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vote Down"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Dagegen stimmen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vote Down"
           }
         },
         "ja": {
@@ -5700,6 +8154,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "반대 투표"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проголосовать «против»"
           }
         },
         "zh-Hans": {
@@ -5719,16 +8179,16 @@
     "vote_up": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vote Up"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Dafür stimmen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vote Up"
           }
         },
         "ja": {
@@ -5741,6 +8201,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "찬성 투표"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проголосовать «за»"
           }
         },
         "zh-Hans": {
@@ -5760,16 +8226,16 @@
     "withdraw_vote": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Withdraw Vote"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Stimme zurückziehen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Withdraw Vote"
           }
         },
         "ja": {
@@ -5784,6 +8250,12 @@
             "value": "투표 취소"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отозвать голос"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5794,1482 +8266,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "撤回投票"
-          }
-        }
-      }
-    },
-    "comment.report": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Report on %@"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Auf %@ melden"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ で通報"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@에 신고"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "在 %@ 上举报"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "在 %@ 上檢舉"
-          }
-        }
-      }
-    },
-    "comment.report.open": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Open Report Page"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meldeseite öffnen"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "通報ページを開く"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "신고 페이지 열기"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "打开举报页面"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "開啟檢舉頁面"
-          }
-        }
-      }
-    },
-    "comment.filter.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Post this comment?"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Diesen Kommentar veröffentlichen?"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "このコメントを投稿しますか？"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이 댓글을 게시할까요?"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "要发布这条评论吗？"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "要發表這則留言嗎？"
-          }
-        }
-      }
-    },
-    "comment.filter.body": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "It may contain hateful, threatening or harassing language."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Er enthält möglicherweise hasserfüllte, bedrohliche oder belästigende Sprache."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "差別的、脅迫的、または嫌がらせにあたる表現が含まれている可能性があります。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "혐오, 위협 또는 괴롭힘에 해당하는 표현이 포함되어 있을 수 있습니다."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "其中可能含有仇恨、威胁或骚扰性的言论。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "其中可能含有仇恨、威脅或騷擾性的言論。"
-          }
-        }
-      }
-    },
-    "comment.filter.edit": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Edit"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bearbeiten"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "編集する"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "수정"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "编辑"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "編輯"
-          }
-        }
-      }
-    },
-    "comment.filter.post_anyway": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Post Anyway"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trotzdem veröffentlichen"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "このまま投稿"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "그래도 게시"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "仍要发布"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "仍要發表"
-          }
-        }
-      }
-    },
-    "comment.block": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Block %@"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ blockieren"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ さんをブロック"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ 님 차단"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "屏蔽 %@"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "封鎖 %@"
-          }
-        }
-      }
-    },
-    "comment.block.confirm_title": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Block %@?"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ blockieren?"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ さんをブロックしますか？"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ 님을 차단할까요?"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "要屏蔽 %@ 吗？"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "要封鎖 %@ 嗎？"
-          }
-        }
-      }
-    },
-    "comment.block.confirm_body": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Their comments will be collapsed on this device. You can unblock them anytime."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Die Kommentare dieser Person werden auf diesem Gerät eingeklappt. Du kannst die Blockierung jederzeit aufheben."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "このデバイスでは、このユーザーのコメントが折りたたまれて表示されます。ブロックはいつでも解除できます。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이 기기에서 이 사용자의 댓글이 접혀서 표시됩니다. 언제든지 차단을 해제할 수 있습니다."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "在此设备上，此用户的评论将被折叠。你可以随时取消屏蔽。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "在此裝置上，這位使用者的留言將會收合。你可以隨時解除封鎖。"
-          }
-        }
-      }
-    },
-    "comment.block.confirm": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Block"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Blockieren"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ブロック"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "차단"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "屏蔽"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "封鎖"
-          }
-        }
-      }
-    },
-    "comment.blocked_row": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Comment from a user you've blocked"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kommentar von einer Person, die du blockiert hast"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ブロックしたユーザーのコメント"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "차단한 사용자의 댓글"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "来自已屏蔽用户的评论"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "來自已封鎖使用者的留言"
-          }
-        }
-      }
-    },
-    "comment.blocked_row.show": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Show"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Anzeigen"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "表示"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "보기"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "显示"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "顯示"
-          }
-        }
-      }
-    },
-    "comment.blocked_row.hide": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hide"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ausblenden"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "隠す"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "숨기기"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "隐藏"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "隱藏"
-          }
-        }
-      }
-    },
-    "comment.unblock": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Unblock %@"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Blockierung von %@ aufheben"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ さんのブロックを解除"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ 님 차단 해제"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "取消屏蔽 %@"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "解除封鎖 %@"
-          }
-        }
-      }
-    },
-    "report.intro": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your report goes to %@'s staff. EhPanda doesn't keep a copy."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deine Meldung geht an das Team von %@. EhPanda speichert keine Kopie."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "通報は %@ の運営チームに届きます。EhPanda は内容を保存しません。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "신고 내용은 %@ 운영진에게 전달됩니다. EhPanda는 사본을 보관하지 않습니다."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "举报会发送给 %@ 的管理人员，EhPanda 不会保存副本。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "檢舉會傳送給 %@ 的管理人員，EhPanda 不會保存副本。"
-          }
-        }
-      }
-    },
-    "report.reason": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reason"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Grund"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "理由"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사유"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "原因"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "原因"
-          }
-        }
-      }
-    },
-    "report.reason.child": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Child pornography"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kinderpornografie"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "児童ポルノ"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "아동 성착취물"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "儿童色情"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "兒童色情"
-          }
-        }
-      }
-    },
-    "report.reason.illegal": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Other illegal content"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Andere illegale Inhalte"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "その他の違法コンテンツ"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "기타 불법 콘텐츠"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "其他违法内容"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "其他違法內容"
-          }
-        }
-      }
-    },
-    "report.email": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Email"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "E-Mail"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "メールアドレス"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이메일"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "电子邮箱"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "電子郵件"
-          }
-        }
-      }
-    },
-    "report.email.placeholder": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "name@example.com"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "name@example.com"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "name@example.com"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "name@example.com"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "name@example.com"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "name@example.com"
-          }
-        }
-      }
-    },
-    "report.email.footer": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ requires a working email address. It's sent only with this report."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ verlangt eine funktionierende E-Mail-Adresse. Sie wird nur mit dieser Meldung gesendet."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ では、受信できるメールアドレスが必要です。この通報と一緒に送信されるだけです。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@에서는 사용 중인 이메일 주소가 필요합니다. 이 신고와 함께만 전송됩니다."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ 要求填写可用的电子邮箱，它只会随这份举报一起发送。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ 要求填寫可用的電子郵件，它只會隨這份檢舉一起傳送。"
-          }
-        }
-      }
-    },
-    "report.email.invalid": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enter a working email address."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gib eine funktionierende E-Mail-Adresse ein."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "受信できるメールアドレスを入力してください。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사용 중인 이메일 주소를 입력해 주세요."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "请输入可用的电子邮箱。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "請輸入可用的電子郵件。"
-          }
-        }
-      }
-    },
-    "report.details": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Details"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Details"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "詳細"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "상세 내용"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "详细说明"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "詳細說明"
-          }
-        }
-      }
-    },
-    "report.send": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Send Report"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meldung senden"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "通報を送信"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "신고 보내기"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "发送举报"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "傳送檢舉"
-          }
-        }
-      }
-    },
-    "report.help.illegal": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Describe what's illegal and which pages it's on."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Beschreibe, was illegal ist und auf welchen Seiten es zu finden ist."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "何が違法なのか、どのページにあるのかを書いてください。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "무엇이 불법인지, 어느 페이지에 있는지 적어 주세요."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "请说明哪些内容违法，以及出现在哪些页面。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "請說明哪些內容違法，以及出現在哪些頁面。"
-          }
-        }
-      }
-    },
-    "report.help.illegal_warning": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reports that aren't about illegal content, including copyright requests, can get you banned from %@."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meldungen, die keine illegalen Inhalte betreffen, auch Urheberrechtsanfragen, können dazu führen, dass du auf %@ gesperrt wirst."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "違法コンテンツ以外の通報（著作権に関する申し立てを含む）を送ると、%@ の利用を停止されることがあります。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "불법 콘텐츠가 아닌 내용을 신고하면(저작권 요청 포함) %@ 이용이 제한될 수 있습니다."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "如果举报的不是违法内容（包括版权请求），你可能会被 %@ 封禁。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "如果檢舉的不是違法內容（包括著作權請求），你可能會被 %@ 停權。"
-          }
-        }
-      }
-    },
-    "report.comment_footer": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The comment is filled in for you, because %@'s reports cover the whole gallery. Add why you're reporting it."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Der Kommentar ist schon eingetragen, weil Meldungen auf %@ immer die ganze Galerie betreffen. Ergänze, warum du ihn meldest."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ の通報はギャラリー全体が対象のため、コメントはあらかじめ入力されています。通報する理由を書き足してください。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@의 신고는 갤러리 전체를 대상으로 하므로 댓글이 미리 입력되어 있습니다. 신고하는 이유를 덧붙여 주세요."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "由于 %@ 的举报针对整个画廊，评论已帮你填好。请补充举报的原因。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "由於 %@ 的檢舉針對整個畫廊，留言已幫你填好。請補充檢舉的原因。"
-          }
-        }
-      }
-    },
-    "report.loading": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Loading the report form…"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meldeformular wird geladen …"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "通報フォームを読み込み中…"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "신고 양식을 불러오는 중…"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "正在加载举报表单…"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "正在載入檢舉表單⋯"
-          }
-        }
-      }
-    },
-    "report.sending": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sending…"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wird gesendet …"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "送信中…"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "보내는 중…"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "正在发送…"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "正在傳送⋯"
-          }
-        }
-      }
-    },
-    "report.sent.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Report Sent"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meldung gesendet"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "通報を送信しました"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "신고를 보냈습니다"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "举报已发送"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "檢舉已傳送"
-          }
-        }
-      }
-    },
-    "report.sent.body": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your report was sent to %@'s staff."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deine Meldung wurde an das Team von %@ gesendet."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "通報は %@ の運営チームに送信されました。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "신고 내용이 %@ 운영진에게 전송되었습니다."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "你的举报已发送给 %@ 的管理人员。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "你的檢舉已傳送給 %@ 的管理人員。"
-          }
-        }
-      }
-    },
-    "report.sent.done": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Done"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fertig"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "完了"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "완료"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "完成"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "完成"
-          }
-        }
-      }
-    },
-    "report.failed.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Couldn't Send Report"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meldung nicht gesendet"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "通報を送信できません"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "신고를 보내지 못함"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "无法发送举报"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "無法傳送檢舉"
-          }
-        }
-      }
-    },
-    "report.failed.body": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your report wasn't sent. Try again, or report on %@'s page instead."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deine Meldung wurde nicht gesendet. Versuche es erneut oder melde es stattdessen auf der Seite von %@."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "通報は送信されませんでした。もう一度お試しいただくか、%@ の通報ページをご利用ください。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "신고가 전송되지 않았습니다. 다시 시도하거나 %@의 신고 페이지를 이용해 주세요."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "举报未发送。请重试，或改用 %@ 的举报页面。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "檢舉未傳送。請重試，或改用 %@ 的檢舉頁面。"
-          }
-        }
-      }
-    },
-    "report.unavailable.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Couldn't Load the Report Form"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Meldeformular nicht verfügbar"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "通報フォームを読み込めません"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "신고 양식을 불러올 수 없음"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "无法加载举报表单"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "無法載入檢舉表單"
-          }
-        }
-      }
-    },
-    "report.unavailable.body": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ may have changed its report page. You can still report there."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ hat die Meldeseite möglicherweise geändert. Du kannst dort trotzdem melden."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ の通報ページが変更された可能性があります。そのページからは引き続き通報できます。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@의 신고 페이지가 바뀌었을 수 있습니다. 해당 페이지에서는 계속 신고할 수 있습니다."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ 的举报页面可能已更改，你仍可以在那里举报。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ 的檢舉頁面可能已變更，你仍可以在那裡檢舉。"
           }
         }
       }

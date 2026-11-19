@@ -4,16 +4,16 @@
     "delete_saved_search_description": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Delete this saved search?"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Diese gespeicherte Suche wirklich löschen?"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete this saved search?"
           }
         },
         "ja": {
@@ -26,6 +26,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이 저장된 검색을 삭제할까요?"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить этот сохранённый поиск?"
           }
         },
         "zh-Hans": {
@@ -45,16 +51,16 @@
     "edit": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Edit"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Bearbeiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
           }
         },
         "ja": {
@@ -67,6 +73,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "편집"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменить"
           }
         },
         "zh-Hans": {
@@ -86,16 +98,16 @@
     "edit_saved_search": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Edit Saved Search"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Suche bearbeiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Saved Search"
           }
         },
         "ja": {
@@ -108,6 +120,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "저장된 검색 편집"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Изменить сохранённый поиск"
           }
         },
         "zh-Hans": {
@@ -127,13 +145,13 @@
     "name": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Name"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Name"
@@ -149,6 +167,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이름"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Название"
           }
         },
         "zh-Hans": {
@@ -168,16 +192,16 @@
     "new_saved_search": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New Saved Search"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Suche speichern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Saved Search"
           }
         },
         "ja": {
@@ -190,6 +214,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "저장된 검색 추가"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новый сохранённый поиск"
           }
         },
         "zh-Hans": {
@@ -209,13 +239,13 @@
     "optional_placeholder": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Optional"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Optional"
@@ -231,6 +261,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "선택 사항"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Необязательно"
           }
         },
         "zh-Hans": {
@@ -250,34 +286,6 @@
     "saved_search_limit_description": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%#@limit@"
-          },
-          "substitutions": {
-            "limit": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "You can save up to %arg search."
-                    }
-                  },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "You can save up to %arg searches."
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -299,6 +307,34 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "Du kannst bis zu %arg Suchen speichern."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@limit@"
+          },
+          "substitutions": {
+            "limit": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "You can save up to %arg search."
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "You can save up to %arg searches."
                     }
                   }
                 }
@@ -343,6 +379,46 @@
                     "stringUnit": {
                       "state": "translated",
                       "value": "%arg"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@limit@"
+          },
+          "substitutions": {
+            "limit": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "few": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "Можно сохранить не более %arg поисков."
+                    }
+                  },
+                  "many": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "Можно сохранить не более %arg поисков."
+                    }
+                  },
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "Можно сохранить не более %arg поиска."
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "Можно сохранить не более %arg поиска."
                     }
                   }
                 }
@@ -399,16 +475,16 @@
     "search_terms": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search Terms"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Suchbegriffe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search Terms"
           }
         },
         "ja": {
@@ -421,6 +497,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "검색어"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поисковый запрос"
           }
         },
         "zh-Hans": {

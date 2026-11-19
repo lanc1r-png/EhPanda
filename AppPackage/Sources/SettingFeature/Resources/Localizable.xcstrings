@@ -28,6 +28,12 @@
             "value" : "유효하지 않음"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Недействителен"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67,6 +73,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "유효함"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Действителен"
           }
         },
         "zh-Hans" : {
@@ -110,6 +122,12 @@
             "value" : "%1$@ %2$@ 제외"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Исключить: %1$@ %2$@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "계정"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аккаунт"
           }
         },
         "zh-Hans" : {
@@ -192,6 +216,12 @@
             "value" : "도움을 주신 분들"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Благодарности"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -231,6 +261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "모바일 데이터 다운로드 허용"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загрузка через сотовую сеть"
           }
         },
         "zh-Hans" : {
@@ -274,6 +310,12 @@
             "value" : "AltStore 소스"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Источник AltStore"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -313,6 +355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "분석"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аналитика"
           }
         },
         "zh-Hans" : {
@@ -356,6 +404,12 @@
             "value" : "앱 활동 로그"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Журналы активности"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -395,6 +449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "현재"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текущий"
           }
         },
         "zh-Hans" : {
@@ -438,6 +498,12 @@
             "value" : "로그 더 보기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ещё журналы"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -479,6 +545,12 @@
             "value" : "로그가 없습니다"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Журналов нет"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -518,6 +590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "파일 앱에서 열기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть в «Файлах»"
           }
         },
         "zh-Hans" : {
@@ -625,6 +703,12 @@
             }
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запуск %#@count@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -675,13 +759,13 @@
       "comment" : "A row in the activity logs: the run's name, then the time it started.",
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ (%2$@)"
           }
         },
-        "de" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ (%2$@)"
@@ -694,6 +778,12 @@
           }
         },
         "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%2$@)"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ (%2$@)"
@@ -740,6 +830,12 @@
             "value" : "실행 기록"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запуски"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -779,6 +875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "앱 활동 로그"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Журналы активности"
           }
         },
         "zh-Hans" : {
@@ -822,6 +924,12 @@
             "value" : "앱 아이콘"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Значок приложения"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -861,6 +969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "화면 표시"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оформление"
           }
         },
         "zh-Hans" : {
@@ -904,6 +1018,12 @@
             "value" : "아카이버 동작 방법 설정"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поведение архиватора"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -943,6 +1063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아카이버의 기본 동작은 원본 또는 저화질 갤러리 저장에 대한 비용과 선택을 확인한 다음 다른 곳에서 클릭하거나 복사할 수 있는 링크를 표시하는 것입니다. 여기서 이 동작을 변경할 수 있습니다."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "По умолчанию архиватор сначала просит подтвердить стоимость и выбор оригинального или сжатого архива, а затем показывает ссылку, которую можно открыть или скопировать. Здесь это поведение можно изменить."
           }
         },
         "zh-Hans" : {
@@ -986,6 +1112,12 @@
             "value" : "아카이버"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки архиватора"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1025,6 +1157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "실패한 페이지 자동 재시도"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автоповтор неудавшихся страниц"
           }
         },
         "zh-Hans" : {
@@ -1068,6 +1206,12 @@
             "value" : "SNI 차단 우회"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обход фильтрации SNI"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1107,6 +1251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "캐시"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кэш"
           }
         },
         "zh-Hans" : {
@@ -1150,6 +1300,12 @@
             "value" : "이미지 캐시 삭제"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить кэш изображений"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1167,16 +1323,16 @@
     "clear_image_cache_description" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clear the image cache?"
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bildcache wirklich löschen?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear the image cache?"
           }
         },
         "ja" : {
@@ -1189,6 +1345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이미지 캐시를 삭제할까요?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить кэш изображений?"
           }
         },
         "zh-Hans" : {
@@ -1232,6 +1394,12 @@
             "value" : "코드 기여자"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Авторы кода"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1271,6 +1439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 님 차단 해제"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разблокировать: %@"
           }
         },
         "zh-Hans" : {
@@ -1314,6 +1488,12 @@
             "value" : "댓글 순서"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порядок комментариев"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1353,6 +1533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "댓글 투표 표시 시점"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда показывать оценки комментариев"
           }
         },
         "zh-Hans" : {
@@ -1396,6 +1582,12 @@
             "value" : "쿠키 복사"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скопировать cookie"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1435,6 +1627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "썸네일 또는 확장 표시방식에서는 갤러리 목록의 표지 크기를 %1$@에서 %2$@ 사이로 조절할 수 있어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Размер обложек в списках галерей можно изменять от %1$@ до %2$@ в режимах «Миниатюры» и «Расширенный»."
           }
         },
         "zh-Hans" : {
@@ -1478,6 +1676,12 @@
             "value" : "표지 크기 조절"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Масштаб обложек"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1517,6 +1721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "추가"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать"
           }
         },
         "zh-Hans" : {
@@ -1560,6 +1770,12 @@
             "value" : "알 수 없음"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет данных"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1601,6 +1817,12 @@
             "value" : "프로필 삭제"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить профиль"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1618,16 +1840,16 @@
     "delete_profile_description" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete this profile?"
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dieses Profil wirklich löschen?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete this profile?"
           }
         },
         "ja" : {
@@ -1640,6 +1862,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 프로필을 삭제할까요?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить этот профиль?"
           }
         },
         "zh-Hans" : {
@@ -1683,6 +1911,12 @@
             "value" : "클립보드의 링크 감지"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Распознавать ссылки в буфере обмена"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1722,6 +1956,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "표시 방식"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Режим отображения"
           }
         },
         "zh-Hans" : {
@@ -1765,6 +2005,12 @@
             "value" : "프론트와 검색 페이지에서 사용할 디스플레이 모드를 선택하세요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Какой режим отображения использовать на главной странице и в результатах поиска?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1806,6 +2052,12 @@
             "value" : "보여주기 스타일"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стиль отображения"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1842,6 +2094,12 @@
           }
         },
         "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EhPanda"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "EhPanda"
@@ -1888,6 +2146,12 @@
             "value" : "갤러리 화면에서 썸네일 선택기 사용"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбор миниатюр на экране галереи"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1927,6 +2191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "태그 확장 기능 사용"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Расширенные теги"
           }
         },
         "zh-Hans" : {
@@ -1970,6 +2240,12 @@
             "value" : "제외된 언어"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Исключённые языки"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2011,6 +2287,12 @@
             "value" : "갤러리 목록과 검색에서 특정 언어로 된 갤러리를 숨기려면 아래 목록에서 해당 언어를 선택해주세요. 검색어에 관계없이 일치하는 갤러리는 나타나지 않아요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтобы скрыть из списков и поиска галереи на определённых языках, отметьте их ниже. Учтите: такие галереи не появятся ни при каком поисковом запросе."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2050,6 +2332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "제외된 업로더"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Исключённые загрузчики"
           }
         },
         "zh-Hans" : {
@@ -2225,6 +2513,60 @@
             }
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Занято **%#@used@ из %#@limit@**."
+          },
+          "substitutions" : {
+            "limit" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "few" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg ячеек"
+                    }
+                  },
+                  "many" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg ячеек"
+                    }
+                  },
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg ячейки"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg ячейки"
+                    }
+                  }
+                }
+              }
+            },
+            "used" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2326,6 +2668,12 @@
             "value" : "갤러리 목록 및 검색에서 특정 업로더의 갤러리를 숨기려면 아래에 해당 업로더를 추가해주세요. 한 줄에 하나의 사용자 이름을 입력해주세요. 이러한 업로더의 갤러리는 검색 쿼리에 관계없이 나타나지 않아요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтобы скрыть из списков и поиска галереи определённых загрузчиков, добавьте их ниже: по одному имени на строку. Учтите: галереи этих загрузчиков не появятся ни при каком поисковом запросе."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2367,6 +2715,12 @@
             "value" : "여기서 즐겨찾기 카테고리를 선택하고 이름을 바꿀 수 있어요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Здесь можно выбрать и переименовать категории избранного."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2385,16 +2739,16 @@
       "comment" : "VoiceOver label of each field that renames a favorites category.",
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Category Name"
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kategoriename"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Category Name"
           }
         },
         "ja" : {
@@ -2407,6 +2761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카테고리 이름"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название категории"
           }
         },
         "zh-Hans" : {
@@ -2450,6 +2810,12 @@
             "value" : "즐겨찾기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Избранное"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2489,6 +2855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "즐겨찾기 정렬 순서"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порядок избранного"
           }
         },
         "zh-Hans" : {
@@ -2532,6 +2904,12 @@
             "value" : "즐겨찾기 페이지에 있는 갤러리의 기본 정렬 방식이에요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порядок сортировки галерей на странице избранного по умолчанию."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2571,6 +2949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "필터로 제거된 수"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Счётчик скрытых фильтрами"
           }
         },
         "zh-Hans" : {
@@ -2614,6 +2998,12 @@
             "value" : "\"사용자 지정 필터가 이 페이지에서 갤러리 XX개를 제거했어요\" 문구를 표시할까요?"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать строку «Ваши фильтры скрыли N галерей на этой странице»?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2653,6 +3043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "프론트 페이지 / 검색 설정"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Главная страница и поиск"
           }
         },
         "zh-Hans" : {
@@ -2696,6 +3092,12 @@
             "value" : "갤러리"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Галерея"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2735,6 +3137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "프론트와 검색 페이지에서 기본으로 어떤 카테고리가 보여지도록 할까요?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Какие категории показывать по умолчанию на главной странице и в поиске?"
           }
         },
         "zh-Hans" : {
@@ -2778,6 +3186,12 @@
             "value" : "갤러리 댓글"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Комментарии к галерее"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2817,6 +3231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "갤러리 이름"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название галереи"
           }
         },
         "zh-Hans" : {
@@ -2860,6 +3280,12 @@
             "value" : "많은 갤러리에 영어/로마자 제목과 일본어 제목이 모두 있어요. 어떤 갤러리 이름을 기본으로 표시할까요?"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У многих галерей есть два названия: английское или в латинской транскрипции и японское. Какое показывать по умолчанию?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2899,6 +3325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "갤러리 이름 보이기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отображение названия галереи"
           }
         },
         "zh-Hans" : {
@@ -2942,6 +3374,12 @@
             "value" : "갤러리 페이지 썸네일 라벨"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подписи к миниатюрам страниц"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2981,6 +3419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "갤러리 태그"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Теги галереи"
           }
         },
         "zh-Hans" : {
@@ -3024,6 +3468,12 @@
             "value" : "일반"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Основные"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3063,6 +3513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "H@H 지역"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Регион H@H"
           }
         },
         "zh-Hans" : {
@@ -3106,6 +3562,12 @@
             "value" : "**%1$@**에 있거나 이 나라의 VPN을 사용하는 것 같네요. 기본적으로 **%2$@** H@H 지역에서 이미지를 로드할 거예요. 만약에 이 결과가 잘못되었거나 분할 터널링 VPN을 사용하는 경우와 같이 어떤 이유로든 다른 지역을 사용하려는 경우라면, 아래에서 원하는 지역을 선택할 수 있어요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Похоже, вы находитесь в регионе **%1$@** (или используете VPN в нём), поэтому изображения по умолчанию загружаются из региона H@H **%2$@**. Если это не так или вы хотите выбрать другой регион (например, при VPN с раздельным туннелированием), выберите нужный ниже."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3145,6 +3607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "가로"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Горизонтально"
           }
         },
         "zh-Hans" : {
@@ -3188,6 +3656,12 @@
             "value" : "%@ 설정"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3227,6 +3701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이미지 로드 설정"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загрузка изображений"
           }
         },
         "zh-Hans" : {
@@ -3270,6 +3750,12 @@
             "value" : "이미지 해상도"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешение изображений"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3309,6 +3795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "일반적으로 이미지는 온라인 뷰어를 위해 1280 픽셀(데스크톱) 또는 800 픽셀(모바일)의 수평 해상도로 작아져요. 아래의 대체 해상도 중 하나를 선택할 수 있어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для просмотра онлайн изображения обычно сжимаются до 1280 пикселей по горизонтали (компьютер) или 800 пикселей (телефон). Можно выбрать другое разрешение из списка."
           }
         },
         "zh-Hans" : {
@@ -3352,6 +3844,12 @@
             "value" : "이미지 사이즈"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Размер изображения"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3391,6 +3889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사이트가 사용자의 화면 너비에 맞게 이미지를 자동으로 축소시키지만, 수동으로 최대 표시 크기를 정할 수도 있어요. 크기 조정은 브라우저 측에서 수행되므로 이미지가 다시 샘플링되지 않아요. (0 = 제한 없음)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сайт сам уменьшает изображения под ширину экрана, но можно дополнительно ограничить максимальный размер вручную. Как и автоматическое масштабирование, это не пережимает изображение: размер меняется на стороне браузера. (0 — без ограничений)"
           }
         },
         "zh-Hans" : {
@@ -3434,6 +3938,12 @@
             "value" : "이미지 사이즈 설정"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Размер изображений"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3473,6 +3983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사용자 지정 번역 가져오기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импортировать свои переводы"
           }
         },
         "zh-Hans" : {
@@ -3516,6 +4032,12 @@
             "value" : "실험실"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лаборатория"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3555,6 +4077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "목록"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Список"
           }
         },
         "zh-Hans" : {
@@ -3598,6 +4126,12 @@
             "value" : "Hentai@Home 네트워크를 통하여 이미지 로드"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загружать изображения через сеть Hentai@Home"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3637,6 +4171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "로그아웃"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выйти"
           }
         },
         "zh-Hans" : {
@@ -3680,6 +4220,12 @@
             "value" : "로그아웃할까요?"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы действительно хотите выйти?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3719,6 +4265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "최대 태그 수"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Максимальное число тегов"
           }
         },
         "zh-Hans" : {
@@ -3762,6 +4314,12 @@
             "value" : "멀티 페이지 뷰어"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Многостраничный просмотр"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3801,6 +4359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내 태그"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мои теги"
           }
         },
         "zh-Hans" : {
@@ -3844,6 +4408,12 @@
             "value" : "내비게이션"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навигация"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3883,6 +4453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "네트워크"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сеть"
           }
         },
         "zh-Hans" : {
@@ -3926,6 +4502,12 @@
             "value" : "갤러리는 한 번에 하나씩 다운로드됩니다. 여기서 동시에 다운로드할 페이지 수와 모바일 데이터 다운로드 허용 여부를 설정합니다. 파일은 앱의 Downloads 폴더에 저장됩니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Галереи загружаются по одной. Выберите, сколько страниц загружать одновременно и можно ли использовать сотовые данные. Файлы сохраняются в папку «Загрузки» приложения."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3965,6 +4547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "제한 없음"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без ограничений"
           }
         },
         "zh-Hans" : {
@@ -4008,6 +4596,12 @@
             "value" : "선택한 웹사이트로 링크 열기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открывать ссылки на выбранном сайте"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4047,6 +4641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선택적 UI 요소"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дополнительные элементы интерфейса"
           }
         },
         "zh-Hans" : {
@@ -4090,6 +4690,12 @@
             "value" : "일부 예전 UI 요소는 이제 기본적으로 꺼져 있어요. 여기서 다시 켤 수 있어요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Некоторые устаревшие элементы интерфейса теперь по умолчанию отключены. Здесь их можно включить."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4129,6 +4735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다시 샘플링된 버전 대신 원본 이미지를 사용할까요? 위에서 가로 해상도를 \"자동\" 이외로 선택했고 해당 이미지가 그보다 넓은 경우나, 원본 이미지가 10 MiB(1년 넘은 갤러리는 4 MiB)보다 큰 경우에는 다시 샘플링된 이미지가 계속 사용되어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Использовать оригинальные изображения вместо сжатых? Сжатые всё равно будут использоваться, если выбрано разрешение по горизонтали, отличное от «Авто», и изображение шире него, а также если оригинал больше 10 МиБ (или 4 МиБ для галерей старше года)."
           }
         },
         "zh-Hans" : {
@@ -4172,6 +4784,12 @@
             "value" : "비밀번호"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пароль"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4211,6 +4829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "개인정보 보호 마스크"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скрытие содержимого"
           }
         },
         "zh-Hans" : {
@@ -4254,6 +4878,12 @@
             "value" : "앱 전환 화면에 나타나거나 백그라운드로 전환될 때 앱을 흐리게 표시합니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Размывает приложение в переключателе приложений и при переходе в фон."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4272,16 +4902,16 @@
       "comment" : "Placeholder and VoiceOver label of the field that renames the selected site profile.",
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Profile Name"
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Profilname"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile Name"
           }
         },
         "ja" : {
@@ -4294,6 +4924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "프로필 이름"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название профиля"
           }
         },
         "zh-Hans" : {
@@ -4337,6 +4973,12 @@
             "value" : "별점"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оценки"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4376,6 +5018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "별점 색깔"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цвет оценок"
           }
         },
         "zh-Hans" : {
@@ -4419,6 +5067,12 @@
             "value" : "기본적으로 등급을 매긴 갤러리는 별 2개 이하의 등급에 대해 빨간색, 2.5~4개의 등급에 대해 녹색, 4.5~5개의 등급에 대해 파란색 별로 표시되어요. 아래에 원하는 색상 조합을 입력하여 사용자 정의할 수 있어요. 각 문자는 별 하나를 표현해요. 기본 RRGGB는 첫 번째와 두 번째 별의 경우 R(ed), 세 번째와 네 번째 별의 경우 G(reen), 다섯 번째 별의 경우 B(lue)를 의미해요. 일반 별에 (Y)ellow를 사용할 수도 있어요. 모든 5글자의 R/G/B/Y 콤보가 작동해요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "По умолчанию оценённые вами галереи показываются с красными звёздами при оценке 2 и ниже, зелёными при оценке от 2,5 до 4 и синими при оценке 4,5 или 5. Эту схему можно изменить, введя нужную комбинацию цветов ниже. Каждая буква соответствует одной звезде. По умолчанию RRGGB означает: R (красный) для первой и второй звезды, G (зелёный) для третьей и четвёртой, B (синий) для пятой. Для обычных звёзд можно использовать Y (жёлтый). Подойдёт любая комбинация из пяти букв R/G/B/Y."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4455,6 +5109,12 @@
           }
         },
         "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RRGGB"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "RRGGB"
@@ -4501,6 +5161,12 @@
             "value" : "삭제"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4540,6 +5206,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사용자 지정 번역 삭제"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить свои переводы"
           }
         },
         "zh-Hans" : {
@@ -4583,6 +5255,12 @@
             "value" : "사용자 지정 번역을 삭제할까요?"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить ваши переводы?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4622,6 +5300,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이름 변경"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переименовать"
           }
         },
         "zh-Hans" : {
@@ -4665,6 +5349,12 @@
             "value" : "결과 수"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Число результатов"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4704,6 +5394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "인덱스 / 검색 / 토렌트 검색 페이지에 대해 페이지당 몇 개의 결과를 원하시나요?\n(Hath Perk: 페이징 확장 필요)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сколько результатов показывать на странице списка, поиска и поиска торрентов?\n(Требуется перк Hath: Paging Enlargement)"
           }
         },
         "zh-Hans" : {
@@ -4747,6 +5443,12 @@
             "value" : "저장"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4786,6 +5488,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "크기 비율"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Масштаб"
           }
         },
         "zh-Hans" : {
@@ -4829,6 +5537,12 @@
             "value" : "검색 범위 표시기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Индикатор диапазона поиска"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4868,6 +5582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "검색 범위 표시기에 사용할 보여주기 스타일을 선택하세요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Какой стиль индикатора диапазона поиска использовать?"
           }
         },
         "zh-Hans" : {
@@ -4911,6 +5631,12 @@
             "value" : "검색 결과 수"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Число результатов поиска"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4950,6 +5676,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선택한 프로필"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбранный профиль"
           }
         },
         "zh-Hans" : {
@@ -4993,6 +5725,12 @@
             "value" : "기본으로 설정"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сделать основным"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5032,6 +5770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "정보"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "О приложении"
           }
         },
         "zh-Hans" : {
@@ -5075,6 +5819,12 @@
             "value" : "계정"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аккаунт"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5114,6 +5864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "화면 표시"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оформление"
           }
         },
         "zh-Hans" : {
@@ -5157,6 +5913,12 @@
             "value" : "다운로드"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загрузки"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5196,6 +5958,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "일반"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Основные"
           }
         },
         "zh-Hans" : {
@@ -5239,6 +6007,12 @@
             "value" : "실험실"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лаборатория"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5278,6 +6052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "읽기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтение"
           }
         },
         "zh-Hans" : {
@@ -5321,6 +6101,12 @@
             "value" : "분석 데이터 공유"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Делиться данными аналитики"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5360,6 +6146,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "필터로 제거된 수 표시"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать число скрытых фильтрами"
           }
         },
         "zh-Hans" : {
@@ -5403,6 +6195,12 @@
             "value" : "태그에 이미지 표시"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать изображения в тегах"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5442,6 +6240,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "일본어 제목 표시"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать японские названия"
           }
         },
         "zh-Hans" : {
@@ -5485,6 +6289,12 @@
             "value" : "갤러리 썸네일 아래에 라벨 표시"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подпись под миниатюрами галереи"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5524,6 +6334,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "새벽 인사 표시"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать приветствие «New Dawn»"
           }
         },
         "zh-Hans" : {
@@ -5567,6 +6383,12 @@
             "value" : "태그 검색 제안 표시"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подсказки тегов"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5606,6 +6428,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "목록에 태그 표시"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать теги в списке"
           }
         },
         "zh-Hans" : {
@@ -5649,6 +6477,12 @@
             "value" : "썸네일 창 표시"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать панель миниатюр"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5688,6 +6522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "동시 이미지 다운로드 수"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Одновременные загрузки"
           }
         },
         "zh-Hans" : {
@@ -5731,6 +6571,12 @@
             "value" : "특별히 감사드리는 분들"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Особая благодарность"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5770,6 +6616,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "태그 필터링 임계값"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порог фильтрации тегов"
           }
         },
         "zh-Hans" : {
@@ -5813,6 +6665,12 @@
             "value" : "마이너스 가중치로 My Tags에 추가하여 태그를 소프트 필터할 수 있어요. 갤러리 태그의 가중치 합이 이 값 미만이면 보기에서 필터링되어요. 이 임계값은 0과 -9999 사이에서 설정할 수 있어요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Теги можно мягко отфильтровывать, добавив их в «Мои теги» с отрицательным весом. Если сумма весов тегов галереи ниже этого значения, галерея скрывается. Порог задаётся от 0 до −9999."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5852,6 +6710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "관심 태그 임계값"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порог отслеживания тегов"
           }
         },
         "zh-Hans" : {
@@ -5895,6 +6759,12 @@
             "value" : "최근에 업로드된 갤러리는 양수 가중치의 관심 태그가 최소 1개 있고 관심 태그의 가중치의 합이 이 값 이상이 될 경우 관심 태그 화면에 포함되어요. 이 임계값은 0과 9999 사이에서 설정할 수 있어요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Недавно загруженные галереи попадают на экран отслеживаемых, если у них есть хотя бы один отслеживаемый тег с положительным весом, а сумма весов отслеживаемых тегов не меньше этого значения. Порог задаётся от 0 до 9999."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5934,6 +6804,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "태그"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Теги"
           }
         },
         "zh-Hans" : {
@@ -5977,6 +6853,12 @@
             "value" : "태그 정렬 순서"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порядок тегов"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6016,6 +6898,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "테마"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тема"
           }
         },
         "zh-Hans" : {
@@ -6059,6 +6947,12 @@
             "value" : "모든 방문한 갤러리에 대하여 기본 썸네일 구성을 설정할 수 있어요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Можно задать конфигурацию миниатюр по умолчанию для всех просматриваемых галерей."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6098,6 +6992,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "썸네일 로드 시점"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда загружать миниатюры"
           }
         },
         "zh-Hans" : {
@@ -6141,6 +7041,12 @@
             "value" : "미니멀 또는 컴팩트 표시 방식을 사용할 때 앞 페이지의 마우스 오버 미리 보기를 어떻게 로드할까요?"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда загружать миниатюры, появляющиеся при наведении, на главной странице в режимах «Минимальный» и «Компактный»?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6180,6 +7086,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "줄"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Строки"
           }
         },
         "zh-Hans" : {
@@ -6223,6 +7135,12 @@
             "value" : "썸네일 설정"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки миниатюр"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6262,6 +7180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사이즈"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Размер"
           }
         },
         "zh-Hans" : {
@@ -6305,6 +7229,12 @@
             "value" : "다운로드"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загрузки"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6344,6 +7274,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "태그 번역"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переводить теги"
           }
         },
         "zh-Hans" : {
@@ -6387,6 +7323,12 @@
             "value" : "번역 기여자"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Авторы переводов"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6426,6 +7368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다중 페이지 뷰어 적용"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Многостраничный просмотр"
           }
         },
         "zh-Hans" : {
@@ -6469,6 +7417,12 @@
             "value" : "원본 이미지 사용"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оригинальные изображения"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6508,6 +7462,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이디"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Имя пользователя"
           }
         },
         "zh-Hans" : {
@@ -6551,6 +7511,12 @@
             "value" : "버전"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6590,6 +7556,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "세로"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вертикально"
           }
         },
         "zh-Hans" : {
@@ -6633,6 +7605,12 @@
             "value" : "뷰포트 조정"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переопределение области просмотра"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6672,6 +7650,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "가상 너비"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виртуальная ширина"
           }
         },
         "zh-Hans" : {
@@ -6715,6 +7699,12 @@
             "value" : "모바일 장치의 사이트 가상 너비를 설정할 수 있어요. 일반적으로 DPI에 따라 장치에 의해 자동으로 결정되어요. %@ 썸네일 스케일의 추천 값은 640에서 1400 사이예요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позволяет переопределить виртуальную ширину сайта на мобильных устройствах. Обычно она определяется автоматически по плотности пикселей устройства. Разумные значения при масштабе миниатюр %@: от 640 до 1400."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6754,6 +7744,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "웹사이트"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сайт"
           }
         },
         "zh-Hans" : {

@@ -3,15 +3,14 @@
   "strings": {
     "response.hath_client_not_found": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "You must have a H@H client assigned to your account to use this feature."
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "You must have a H@H client assigned to your account to use this feature."
@@ -29,6 +28,12 @@
             "value": "You must have a H@H client assigned to your account to use this feature."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You must have a H@H client assigned to your account to use this feature."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -41,19 +46,19 @@
             "value": "You must have a H@H client assigned to your account to use this feature."
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "response.hath_client_not_online": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Your H@H client appears to be offline. Turn it on, then try again."
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Your H@H client appears to be offline. Turn it on, then try again."
@@ -71,6 +76,12 @@
             "value": "Your H@H client appears to be offline. Turn it on, then try again."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your H@H client appears to be offline. Turn it on, then try again."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -83,19 +94,19 @@
             "value": "Your H@H client appears to be offline. Turn it on, then try again."
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "response.invalid_resolution": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "The requested gallery cannot be downloaded with the selected resolution."
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "The requested gallery cannot be downloaded with the selected resolution."
@@ -113,6 +124,12 @@
             "value": "The requested gallery cannot be downloaded with the selected resolution."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The requested gallery cannot be downloaded with the selected resolution."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -125,7 +142,8 @@
             "value": "The requested gallery cannot be downloaded with the selected resolution."
           }
         }
-      }
+      },
+      "shouldTranslate": false
     }
   },
   "version": "1.0"

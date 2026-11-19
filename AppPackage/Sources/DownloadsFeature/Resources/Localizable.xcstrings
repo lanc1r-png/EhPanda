@@ -28,6 +28,12 @@
             "value" : "작업"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Действия"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67,6 +73,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "필터 초기화"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить фильтры"
           }
         },
         "zh-Hans" : {
@@ -110,6 +122,12 @@
             "value" : "현재 다운로드를 취소하고 이 기기에서 삭제합니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текущая загрузка будет отменена, а галерея удалена с этого устройства."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다운로드 상태"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Статус загрузки"
           }
         },
         "zh-Hans" : {
@@ -256,6 +280,12 @@
             }
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загружено (%#@count@)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -329,6 +359,12 @@
             "value" : "홈이나 검색에서 마음에 드는 갤러리를 찾아 다운로드하면 오프라인에서도 언제든 볼 수 있습니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найдите что-нибудь по душе на главной странице или в поиске и загрузите, чтобы читать в любое время, даже без сети."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -368,6 +404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아직 다운로드가 없습니다"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загрузок пока нет"
           }
         },
         "zh-Hans" : {
@@ -475,6 +517,12 @@
             }
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка (%#@count@)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -548,6 +596,12 @@
             "value" : "이미지 데이터를 검증할 수 없습니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось проверить изображения."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -587,6 +641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이미지 데이터가 유효합니다"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все изображения проверены"
           }
         },
         "zh-Hans" : {
@@ -630,6 +690,12 @@
             "value" : "이동"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переместить"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -669,6 +735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "폴더로 이동"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переместить в папку"
           }
         },
         "zh-Hans" : {
@@ -712,6 +784,12 @@
             "value" : "현재 필터와 일치하는 다운로드가 없습니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет загрузок, подходящих под текущие фильтры."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -753,6 +831,12 @@
             "value" : "페이지 없음"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет страниц"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -792,6 +876,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "일시 정지"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пауза"
           }
         },
         "zh-Hans" : {
@@ -899,6 +989,12 @@
             }
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ожидает (%#@count@)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -972,6 +1068,12 @@
             "value" : "재개"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1011,6 +1113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "페이지 재시도"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повторить страницы"
           }
         },
         "zh-Hans" : {
@@ -1054,6 +1162,12 @@
             "value" : "이미지 데이터 검증"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверить изображения"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1093,6 +1207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이미지 데이터 검증 중…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверка изображений…"
           }
         },
         "zh-Hans" : {

@@ -28,6 +28,12 @@
             "value": "홈과 검색을 둘러보고 마음에 드는 갤러리를 즐겨찾기에 추가해 보세요."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Просматривайте «Главную» и «Поиск» и добавляйте понравившиеся галереи в избранное."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -69,6 +75,12 @@
             "value": "아직 즐겨찾기가 없습니다"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "В избранном пока пусто"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -108,6 +120,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "정렬 순서"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Порядок"
           }
         },
         "zh-Hans": {

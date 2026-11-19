@@ -374,6 +374,7 @@
 				ko,
 				de,
 				"zh-Hant",
+				ru,
 			);
 			mainGroup = ABC3C74B2593696C00E0C11B;
 			packageReferences = (

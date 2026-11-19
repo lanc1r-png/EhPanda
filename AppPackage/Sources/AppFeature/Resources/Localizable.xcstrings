@@ -5,16 +5,16 @@
       "comment": "The step that failed, shown next to Action on the error details screen.",
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Load Gallery"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Galerie laden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Load Gallery"
           }
         },
         "ja": {
@@ -27,6 +27,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "갤러리 불러오기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загрузка галереи"
           }
         },
         "zh-Hans": {

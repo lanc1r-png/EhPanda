@@ -4,15 +4,14 @@
     "CFBundleName": {
       "comment": "Bundle name",
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "EhPanda"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "EhPanda"
@@ -25,6 +24,12 @@
           }
         },
         "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "EhPanda"
+          }
+        },
+        "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "EhPanda"
@@ -42,21 +47,22 @@
             "value": "EhPanda"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "NSPhotoLibraryAddUsageDescription": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lets you save images to your photo library."
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Wird benötigt, um Bilder in deinen Fotos zu speichern."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lets you save images to your photo library."
           }
         },
         "ja": {
@@ -69,6 +75,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이미지를 사진 보관함에 저장하려면 이 권한이 필요합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Позволяет сохранять изображения в вашу медиатеку."
           }
         },
         "zh-Hans": {

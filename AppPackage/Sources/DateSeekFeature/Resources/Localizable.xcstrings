@@ -4,16 +4,16 @@
     "date": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Date"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Datum"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date"
           }
         },
         "ja": {
@@ -26,6 +26,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "날짜"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дата"
           }
         },
         "zh-Hans": {
@@ -45,16 +51,16 @@
     "seek_around_date": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seek to galleries around the selected date."
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Springt zu Galerien rund um das gewählte Datum."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seek to galleries around the selected date."
           }
         },
         "ja": {
@@ -67,6 +73,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "선택한 날짜 전후의 갤러리로 이동합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перейти к галереям около выбранной даты."
           }
         },
         "zh-Hans": {
@@ -86,16 +98,16 @@
     "seek_newer": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Newer"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Neuere"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Newer"
           }
         },
         "ja": {
@@ -108,6 +120,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이후"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новее"
           }
         },
         "zh-Hans": {
@@ -127,16 +145,16 @@
     "seek_older": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Older"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Ältere"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Older"
           }
         },
         "ja": {
@@ -149,6 +167,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이전"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Старее"
           }
         },
         "zh-Hans": {

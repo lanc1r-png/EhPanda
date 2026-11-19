@@ -1,54 +1,13 @@
 {
   "sourceLanguage": "en",
   "strings": {
-    "live_text": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Live Text"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Live-Text"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "テキスト認識表示"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "라이브 텍스트"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "实况文本"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "原況文字"
-          }
-        }
-      }
-    },
     "accessibility.copy_page": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copy page %#@page@"
+            "value": "Seite %#@page@ kopieren"
           },
           "substitutions": {
             "page": {
@@ -67,10 +26,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seite %#@page@ kopieren"
+            "value": "Copy page %#@page@"
           },
           "substitutions": {
             "page": {
@@ -133,6 +92,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать страницу %#@page@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -182,16 +147,16 @@
     "accessibility.failed_to_load": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "failed to load"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Laden fehlgeschlagen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "failed to load"
           }
         },
         "ja": {
@@ -204,6 +169,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "불러오기 실패"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "не удалось загрузить"
           }
         },
         "zh-Hans": {
@@ -223,16 +194,16 @@
     "accessibility.next_page": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Next page"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Nächste Seite"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next page"
           }
         },
         "ja": {
@@ -245,6 +216,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "다음 페이지"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Следующая страница"
           }
         },
         "zh-Hans": {
@@ -264,10 +241,10 @@
     "accessibility.page_failed_to_load": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "page %#@page@ failed to load"
+            "value": "Seite %#@page@: Laden fehlgeschlagen"
           },
           "substitutions": {
             "page": {
@@ -286,10 +263,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seite %#@page@: Laden fehlgeschlagen"
+            "value": "page %#@page@ failed to load"
           },
           "substitutions": {
             "page": {
@@ -352,6 +329,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "страницу %#@page@ не удалось загрузить"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -401,10 +384,10 @@
     "accessibility.page_of": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "%#@current@ of %#@total@"
+            "value": "%#@current@ von %#@total@"
           },
           "substitutions": {
             "current": {
@@ -437,10 +420,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%#@current@ von %#@total@"
+            "value": "%#@current@ of %#@total@"
           },
           "substitutions": {
             "current": {
@@ -545,6 +528,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@current@ из %#@total@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -622,16 +611,16 @@
     "accessibility.page_slider": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Page"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Seite"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Page"
           }
         },
         "ja": {
@@ -644,6 +633,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "페이지"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Страница"
           }
         },
         "zh-Hans": {
@@ -663,13 +658,13 @@
     "accessibility.page_status": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@, %2$@"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@, %2$@"
@@ -682,6 +677,12 @@
           }
         },
         "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@, %2$@"
+          }
+        },
+        "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "%1$@, %2$@"
@@ -704,10 +705,10 @@
     "accessibility.pages_of": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "%#@first@–%#@last@ of %#@total@"
+            "value": "%#@first@–%#@last@ von %#@total@"
           },
           "substitutions": {
             "first": {
@@ -754,10 +755,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%#@first@–%#@last@ von %#@total@"
+            "value": "%#@first@–%#@last@ of %#@total@"
           },
           "substitutions": {
             "first": {
@@ -904,6 +905,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@first@–%#@last@ из %#@total@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1009,16 +1016,16 @@
     "accessibility.previous_page": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Previous page"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Vorherige Seite"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous page"
           }
         },
         "ja": {
@@ -1031,6 +1038,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "이전 페이지"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Предыдущая страница"
           }
         },
         "zh-Hans": {
@@ -1050,10 +1063,10 @@
     "accessibility.reload_page": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Reload page %#@page@"
+            "value": "Seite %#@page@ neu laden"
           },
           "substitutions": {
             "page": {
@@ -1072,10 +1085,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seite %#@page@ neu laden"
+            "value": "Reload page %#@page@"
           },
           "substitutions": {
             "page": {
@@ -1138,6 +1151,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обновить страницу %#@page@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1187,10 +1206,10 @@
     "accessibility.save_original_page": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save original of page %#@page@"
+            "value": "Original von Seite %#@page@ speichern"
           },
           "substitutions": {
             "page": {
@@ -1209,10 +1228,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Original von Seite %#@page@ speichern"
+            "value": "Save original of page %#@page@"
           },
           "substitutions": {
             "page": {
@@ -1275,6 +1294,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить оригинал страницы %#@page@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1324,10 +1349,10 @@
     "accessibility.save_page": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save page %#@page@"
+            "value": "Seite %#@page@ speichern"
           },
           "substitutions": {
             "page": {
@@ -1346,10 +1371,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seite %#@page@ speichern"
+            "value": "Save page %#@page@"
           },
           "substitutions": {
             "page": {
@@ -1412,6 +1437,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить страницу %#@page@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1461,10 +1492,10 @@
     "accessibility.share_page": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Share page %#@page@"
+            "value": "Seite %#@page@ teilen"
           },
           "substitutions": {
             "page": {
@@ -1483,10 +1514,10 @@
             }
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seite %#@page@ teilen"
+            "value": "Share page %#@page@"
           },
           "substitutions": {
             "page": {
@@ -1549,6 +1580,12 @@
             }
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поделиться страницей %#@page@"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1598,16 +1635,16 @@
     "auto_play": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Auto-Play"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Autoplay"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto-Play"
           }
         },
         "ja": {
@@ -1620,6 +1657,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "자동 넘김"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Автолистание"
           }
         },
         "zh-Hans": {
@@ -1639,16 +1682,16 @@
     "auto_play_policy.off": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Off"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Aus"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Off"
           }
         },
         "ja": {
@@ -1661,6 +1704,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "끔"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выкл."
           }
         },
         "zh-Hans": {
@@ -1680,16 +1729,16 @@
     "close": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Close"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Schließen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
           }
         },
         "ja": {
@@ -1702,6 +1751,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "닫기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрыть"
           }
         },
         "zh-Hans": {
@@ -1721,16 +1776,16 @@
     "copy": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Copy"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Kopieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy"
           }
         },
         "ja": {
@@ -1743,6 +1798,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "복사"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скопировать"
           }
         },
         "zh-Hans": {
@@ -1762,16 +1823,16 @@
     "dual_page_mode": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dual-Page Mode"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Doppelseitenmodus"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dual-Page Mode"
           }
         },
         "ja": {
@@ -1784,6 +1845,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "두 페이지 보기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Двухстраничный режим"
           }
         },
         "zh-Hans": {
@@ -1800,248 +1867,49 @@
         }
       }
     },
-    "reading_settings": {
+    "live_text": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reading Settings"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Leseeinstellungen"
+            "value": "Live-Text"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Live Text"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "閲覧設定"
+            "value": "テキスト認識表示"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "읽기 설정"
+            "value": "라이브 텍스트"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Живой текст"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "阅读设置"
+            "value": "实况文本"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "閱讀設定"
-          }
-        }
-      }
-    },
-    "reload": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reload"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Neu laden"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "再読み込み"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다시 불러오기"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "重新加载"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "重新載入"
-          }
-        }
-      }
-    },
-    "reload_all_images": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reload All Images"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Alle Bilder neu laden"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "画像をすべて再読み込み"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "모든 이미지 다시 불러오기"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "重新加载所有图片"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "重新載入所有圖片"
-          }
-        }
-      }
-    },
-    "retry_all_failed_images": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Retry All Failed Images"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fehlerhafte Bilder neu laden"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "失敗した画像をすべて再試行"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "실패한 이미지 모두 재시도"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "重试所有加载失败的图片"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "重試所有載入失敗的圖片"
-          }
-        }
-      }
-    },
-    "save": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Speichern"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "保存"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "저장"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "保存"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "儲存"
-          }
-        }
-      }
-    },
-    "save_original": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save Original"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Original speichern"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "オリジナルを保存"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "원본 저장"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "保存原图"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "儲存原圖"
+            "value": "原況文字"
           }
         }
       }
@@ -2049,16 +1917,16 @@
     "move_controls_left": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Move controls left"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Steuerung nach links verschieben"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move controls left"
           }
         },
         "ja": {
@@ -2071,6 +1939,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "컨트롤을 왼쪽으로 이동"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переместить элементы управления влево"
           }
         },
         "zh-Hans": {
@@ -2090,16 +1964,16 @@
     "move_controls_right": {
       "extractionState": "manual",
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Move controls right"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Steuerung nach rechts verschieben"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move controls right"
           }
         },
         "ja": {
@@ -2112,6 +1986,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "컨트롤을 오른쪽으로 이동"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переместить элементы управления вправо"
           }
         },
         "zh-Hans": {
@@ -2128,19 +2008,301 @@
         }
       }
     },
-    "show_cover_alone": {
+    "reading_settings": {
       "extractionState": "manual",
       "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leseeinstellungen"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Show Cover Alone"
+            "value": "Reading Settings"
           }
         },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "閲覧設定"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "읽기 설정"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки чтения"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "阅读设置"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "閱讀設定"
+          }
+        }
+      }
+    },
+    "reload": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neu laden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reload"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再読み込み"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "다시 불러오기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обновить"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新加载"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新載入"
+          }
+        }
+      }
+    },
+    "reload_all_images": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle Bilder neu laden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reload All Images"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画像をすべて再読み込み"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "모든 이미지 다시 불러오기"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обновить все изображения"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新加载所有图片"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新載入所有圖片"
+          }
+        }
+      }
+    },
+    "retry_all_failed_images": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fehlerhafte Bilder neu laden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retry All Failed Images"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "失敗した画像をすべて再試行"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "실패한 이미지 모두 재시도"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторить все неудавшиеся изображения"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重试所有加载失败的图片"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重試所有載入失敗的圖片"
+          }
+        }
+      }
+    },
+    "save": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "저장"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "儲存"
+          }
+        }
+      }
+    },
+    "save_original": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original speichern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save Original"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "オリジナルを保存"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "원본 저장"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить оригинал"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存原图"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "儲存原圖"
+          }
+        }
+      }
+    },
+    "show_cover_alone": {
+      "extractionState": "manual",
+      "localizations": {
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Cover einzeln"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Cover Alone"
           }
         },
         "ja": {
@@ -2153,6 +2315,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "표지 단독 표시"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Обложка отдельно"
           }
         },
         "zh-Hans": {

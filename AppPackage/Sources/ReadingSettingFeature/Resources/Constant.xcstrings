@@ -3,15 +3,14 @@
   "strings": {
     "point_value": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "%lldpt"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "%lldpt"
@@ -29,6 +28,12 @@
             "value": "%lldpt"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lldpt"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -41,19 +46,19 @@
             "value": "%lldpt"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "scale_factor": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "%@x"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "%@x"
@@ -71,6 +76,12 @@
             "value": "%@x"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@x"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -83,7 +94,8 @@
             "value": "%@x"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     }
   },
   "version": "1.0"

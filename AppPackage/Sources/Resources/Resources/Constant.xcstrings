@@ -1,62 +1,19 @@
 {
   "sourceLanguage": "en",
   "strings": {
-    "response.gallery_unavailable": {
-      "extractionState": "manual",
-      "shouldTranslate": false,
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This gallery has been removed or is unavailable."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This gallery has been removed or is unavailable."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This gallery has been removed or is unavailable."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This gallery has been removed or is unavailable."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This gallery has been removed or is unavailable."
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This gallery has been removed or is unavailable."
-          }
-        }
-      }
-    },
     "contact.privacy_policy": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "https://ehpanda.app/en/privacy/"
-          }
-        },
         "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://ehpanda.app/de/privacy/"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://ehpanda.app/en/privacy/"
           }
         },
         "ja": {
@@ -71,6 +28,12 @@
             "value": "https://ehpanda.app/ko/privacy/"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://ehpanda.app/en/privacy/"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -83,7 +46,56 @@
             "value": "https://ehpanda.app/zh-Hant/privacy/"
           }
         }
-      }
+      },
+      "shouldTranslate": false
+    },
+    "response.gallery_unavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This gallery has been removed or is unavailable."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This gallery has been removed or is unavailable."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This gallery has been removed or is unavailable."
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This gallery has been removed or is unavailable."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This gallery has been removed or is unavailable."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This gallery has been removed or is unavailable."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This gallery has been removed or is unavailable."
+          }
+        }
+      },
+      "shouldTranslate": false
     }
   },
   "version": "1.0"

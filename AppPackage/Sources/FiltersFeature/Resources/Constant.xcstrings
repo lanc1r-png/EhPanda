@@ -3,15 +3,14 @@
   "strings": {
     "range_separator": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "-"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "-"
@@ -29,6 +28,12 @@
             "value": "-"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "-"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -41,7 +46,8 @@
             "value": "-"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     }
   },
   "version": "1.0"

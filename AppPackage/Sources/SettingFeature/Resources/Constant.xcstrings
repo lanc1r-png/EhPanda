@@ -3,15 +3,14 @@
   "strings": {
     "acknowledgement.colorfulX": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "ColorfulX"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "ColorfulX"
@@ -29,6 +28,12 @@
             "value": "ColorfulX"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ColorfulX"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -41,19 +46,19 @@
             "value": "ColorfulX"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.colorfulX_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/Lakr233/ColorfulX"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/Lakr233/ColorfulX"
@@ -71,6 +76,12 @@
             "value": "https://github.com/Lakr233/ColorfulX"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/Lakr233/ColorfulX"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -83,19 +94,19 @@
             "value": "https://github.com/Lakr233/ColorfulX"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.ehTagTranslationDatabase": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "EhTagTranslation/Database"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "EhTagTranslation/Database"
@@ -113,6 +124,12 @@
             "value": "EhTagTranslation/Database"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "EhTagTranslation/Database"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -125,19 +142,19 @@
             "value": "EhTagTranslation/Database"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.ehTagTranslationDatabase_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/EhTagTranslation/Database"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/EhTagTranslation/Database"
@@ -155,6 +172,12 @@
             "value": "https://github.com/EhTagTranslation/Database"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/EhTagTranslation/Database"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -167,19 +190,19 @@
             "value": "https://github.com/EhTagTranslation/Database"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.kanna": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Kanna"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Kanna"
@@ -197,6 +220,12 @@
             "value": "Kanna"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kanna"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -209,19 +238,19 @@
             "value": "Kanna"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.kanna_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/tid-kijyun/Kanna"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/tid-kijyun/Kanna"
@@ -239,6 +268,12 @@
             "value": "https://github.com/tid-kijyun/Kanna"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/tid-kijyun/Kanna"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -251,19 +286,19 @@
             "value": "https://github.com/tid-kijyun/Kanna"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.kingfisher": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Kingfisher"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Kingfisher"
@@ -281,6 +316,12 @@
             "value": "Kingfisher"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kingfisher"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -293,19 +334,19 @@
             "value": "Kingfisher"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.kingfisher_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/onevcat/Kingfisher"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/onevcat/Kingfisher"
@@ -323,6 +364,12 @@
             "value": "https://github.com/onevcat/Kingfisher"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/onevcat/Kingfisher"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -335,19 +382,19 @@
             "value": "https://github.com/onevcat/Kingfisher"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.sfSafeSymbols": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "SFSafeSymbols"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "SFSafeSymbols"
@@ -365,6 +412,12 @@
             "value": "SFSafeSymbols"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SFSafeSymbols"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -377,19 +430,19 @@
             "value": "SFSafeSymbols"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.sfSafeSymbols_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/SFSafeSymbols/SFSafeSymbols"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/SFSafeSymbols/SFSafeSymbols"
@@ -407,6 +460,12 @@
             "value": "https://github.com/SFSafeSymbols/SFSafeSymbols"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/SFSafeSymbols/SFSafeSymbols"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -419,19 +478,19 @@
             "value": "https://github.com/SFSafeSymbols/SFSafeSymbols"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.swiftMarkdown": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "swift-markdown"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "swift-markdown"
@@ -449,6 +508,12 @@
             "value": "swift-markdown"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "swift-markdown"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -461,19 +526,19 @@
             "value": "swift-markdown"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.swiftMarkdown_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/apple/swift-markdown"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/apple/swift-markdown"
@@ -491,6 +556,12 @@
             "value": "https://github.com/apple/swift-markdown"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/apple/swift-markdown"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -503,19 +574,19 @@
             "value": "https://github.com/apple/swift-markdown"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.systemNotification": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "SystemNotification"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "SystemNotification"
@@ -533,6 +604,12 @@
             "value": "SystemNotification"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SystemNotification"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -545,19 +622,19 @@
             "value": "SystemNotification"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.systemNotification_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/danielsaidi/SystemNotification"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/danielsaidi/SystemNotification"
@@ -575,6 +652,12 @@
             "value": "https://github.com/danielsaidi/SystemNotification"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/danielsaidi/SystemNotification"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -587,19 +670,19 @@
             "value": "https://github.com/danielsaidi/SystemNotification"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.tca": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "The Composable Architecture"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "The Composable Architecture"
@@ -617,6 +700,12 @@
             "value": "The Composable Architecture"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Composable Architecture"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -629,19 +718,19 @@
             "value": "The Composable Architecture"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.tca_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/pointfreeco/swift-composable-architecture"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/pointfreeco/swift-composable-architecture"
@@ -659,6 +748,12 @@
             "value": "https://github.com/pointfreeco/swift-composable-architecture"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/pointfreeco/swift-composable-architecture"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -671,19 +766,19 @@
             "value": "https://github.com/pointfreeco/swift-composable-architecture"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.uiImageColors": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "UIImageColors"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "UIImageColors"
@@ -701,6 +796,12 @@
             "value": "UIImageColors"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UIImageColors"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -713,19 +814,19 @@
             "value": "UIImageColors"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "acknowledgement.uiImageColors_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/jathu/UIImageColors"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/jathu/UIImageColors"
@@ -743,6 +844,12 @@
             "value": "https://github.com/jathu/UIImageColors"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/jathu/UIImageColors"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -755,19 +862,19 @@
             "value": "https://github.com/jathu/UIImageColors"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "code_contributor.Jimmy-Prime": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Jimmy Prime"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Jimmy Prime"
@@ -785,6 +892,12 @@
             "value": "Jimmy Prime"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jimmy Prime"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -797,19 +910,19 @@
             "value": "Jimmy Prime"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "code_contributor.Jimmy-Prime_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/Jimmy-Prime"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/Jimmy-Prime"
@@ -827,6 +940,12 @@
             "value": "https://github.com/Jimmy-Prime"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/Jimmy-Prime"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -839,19 +958,19 @@
             "value": "https://github.com/Jimmy-Prime"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "code_contributor.Kaed3mi": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Kaed3mi"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Kaed3mi"
@@ -869,6 +988,12 @@
             "value": "Kaed3mi"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaed3mi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -881,19 +1006,19 @@
             "value": "Kaed3mi"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "code_contributor.Kaed3mi_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/Kaed3mi"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/Kaed3mi"
@@ -911,6 +1036,12 @@
             "value": "https://github.com/Kaed3mi"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/Kaed3mi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -923,19 +1054,19 @@
             "value": "https://github.com/Kaed3mi"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "code_contributor.aalberrty": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Zack Asahina"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Zack Asahina"
@@ -953,6 +1084,12 @@
             "value": "Zack Asahina"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zack Asahina"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -965,19 +1102,19 @@
             "value": "Zack Asahina"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "code_contributor.aalberrty_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/aalberrty"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/aalberrty"
@@ -995,6 +1132,12 @@
             "value": "https://github.com/aalberrty"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/aalberrty"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1007,19 +1150,19 @@
             "value": "https://github.com/aalberrty"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "code_contributor.vvbbnn00": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "vvbbnn00"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "vvbbnn00"
@@ -1037,6 +1180,12 @@
             "value": "vvbbnn00"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vvbbnn00"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1049,19 +1198,19 @@
             "value": "vvbbnn00"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "code_contributor.vvbbnn00_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/vvbbnn00"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/vvbbnn00"
@@ -1079,6 +1228,12 @@
             "value": "https://github.com/vvbbnn00"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/vvbbnn00"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1091,19 +1246,19 @@
             "value": "https://github.com/vvbbnn00"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "code_contributor.xioxin": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "xioxin"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "xioxin"
@@ -1121,6 +1276,12 @@
             "value": "xioxin"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "xioxin"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1133,19 +1294,19 @@
             "value": "xioxin"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "code_contributor.xioxin_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/xioxin"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/xioxin"
@@ -1163,6 +1324,12 @@
             "value": "https://github.com/xioxin"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/xioxin"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1175,19 +1342,19 @@
             "value": "https://github.com/xioxin"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "contact.altStore_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "altstore://source?url=https://github.com/EhPanda-Team/EhPanda/raw/main/AltStore.json"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "altstore://source?url=https://github.com/EhPanda-Team/EhPanda/raw/main/AltStore.json"
@@ -1205,6 +1372,12 @@
             "value": "altstore://source?url=https://github.com/EhPanda-Team/EhPanda/raw/main/AltStore.json"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "altstore://source?url=https://github.com/EhPanda-Team/EhPanda/raw/main/AltStore.json"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1217,19 +1390,19 @@
             "value": "altstore://source?url=https://github.com/EhPanda-Team/EhPanda/raw/main/AltStore.json"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "contact.discord": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://discord.gg/BSBE9FCBTq"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://discord.gg/BSBE9FCBTq"
@@ -1247,6 +1420,12 @@
             "value": "https://discord.gg/BSBE9FCBTq"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://discord.gg/BSBE9FCBTq"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1259,19 +1438,19 @@
             "value": "https://discord.gg/BSBE9FCBTq"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "contact.discord_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Discord"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Discord"
@@ -1289,6 +1468,12 @@
             "value": "Discord"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discord"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1301,19 +1486,19 @@
             "value": "Discord"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "contact.gitHub": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/EhPanda-Team/EhPanda"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/EhPanda-Team/EhPanda"
@@ -1331,6 +1516,12 @@
             "value": "https://github.com/EhPanda-Team/EhPanda"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/EhPanda-Team/EhPanda"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1343,19 +1534,19 @@
             "value": "https://github.com/EhPanda-Team/EhPanda"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "contact.gitHub_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "GitHub"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "GitHub"
@@ -1373,6 +1564,12 @@
             "value": "GitHub"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GitHub"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1385,19 +1582,19 @@
             "value": "GitHub"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "contact.telegram": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://t.me/ehpanda"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://t.me/ehpanda"
@@ -1415,6 +1612,12 @@
             "value": "https://t.me/ehpanda"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://t.me/ehpanda"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1427,19 +1630,19 @@
             "value": "https://t.me/ehpanda"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "contact.telegram_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Telegram"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Telegram"
@@ -1457,6 +1660,12 @@
             "value": "Telegram"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Telegram"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1469,19 +1678,19 @@
             "value": "Telegram"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "contact.website": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://ehpanda.app"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://ehpanda.app"
@@ -1499,6 +1708,12 @@
             "value": "https://ehpanda.app"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://ehpanda.app"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1511,19 +1726,19 @@
             "value": "https://ehpanda.app"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "copyright": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Copyright © 2026 EhPanda Team"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Copyright © 2026 EhPanda Team"
@@ -1541,6 +1756,12 @@
             "value": "Copyright © 2026 EhPanda Team"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copyright © 2026 EhPanda Team"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1553,19 +1774,19 @@
             "value": "Copyright © 2026 EhPanda Team"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "special_thanks.caxerx": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "caxerx"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "caxerx"
@@ -1583,6 +1804,12 @@
             "value": "caxerx"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "caxerx"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1595,19 +1822,19 @@
             "value": "caxerx"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "special_thanks.caxerx_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/caxerx"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/caxerx"
@@ -1625,6 +1852,12 @@
             "value": "https://github.com/caxerx"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/caxerx"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1637,19 +1870,19 @@
             "value": "https://github.com/caxerx"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "special_thanks.honjow": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "honjow"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "honjow"
@@ -1667,6 +1900,12 @@
             "value": "honjow"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "honjow"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1679,19 +1918,19 @@
             "value": "honjow"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "special_thanks.honjow_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/honjow"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/honjow"
@@ -1709,6 +1948,12 @@
             "value": "https://github.com/honjow"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/honjow"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1721,19 +1966,19 @@
             "value": "https://github.com/honjow"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "special_thanks.luminescent_yq": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "Luminescent_yq"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Luminescent_yq"
@@ -1751,6 +1996,12 @@
             "value": "Luminescent_yq"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Luminescent_yq"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1763,19 +2014,19 @@
             "value": "Luminescent_yq"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "special_thanks.luminescent_yq_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": ""
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": ""
@@ -1793,6 +2044,12 @@
             "value": ""
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ""
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1805,19 +2062,19 @@
             "value": ""
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "special_thanks.taylorlannister": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "taylorlannister"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "taylorlannister"
@@ -1835,6 +2092,12 @@
             "value": "taylorlannister"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "taylorlannister"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1847,19 +2110,19 @@
             "value": "taylorlannister"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "special_thanks.taylorlannister_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/taylorlannister"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/taylorlannister"
@@ -1877,6 +2140,12 @@
             "value": "https://github.com/taylorlannister"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/taylorlannister"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1889,19 +2158,19 @@
             "value": "https://github.com/taylorlannister"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "translation_contributor.NeKoOuO": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "ɴᴇᴋᴏ"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "ɴᴇᴋᴏ"
@@ -1919,6 +2188,12 @@
             "value": "ɴᴇᴋᴏ"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ɴᴇᴋᴏ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1931,19 +2206,19 @@
             "value": "ɴᴇᴋᴏ"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "translation_contributor.NeKoOuO_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/NeKoOuO"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/NeKoOuO"
@@ -1961,6 +2236,12 @@
             "value": "https://github.com/NeKoOuO"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/NeKoOuO"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1973,19 +2254,19 @@
             "value": "https://github.com/NeKoOuO"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "translation_contributor.caxerx": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "caxerx"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "caxerx"
@@ -2003,6 +2284,12 @@
             "value": "caxerx"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "caxerx"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2015,19 +2302,19 @@
             "value": "caxerx"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "translation_contributor.caxerx_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/caxerx"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/caxerx"
@@ -2045,6 +2332,12 @@
             "value": "https://github.com/caxerx"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/caxerx"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2057,19 +2350,19 @@
             "value": "https://github.com/caxerx"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "translation_contributor.nebulosa-cat": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "雲豹 ΦωΦ"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "雲豹 ΦωΦ"
@@ -2087,6 +2380,12 @@
             "value": "雲豹 ΦωΦ"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "雲豹 ΦωΦ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2099,19 +2398,19 @@
             "value": "雲豹 ΦωΦ"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "translation_contributor.nebulosa-cat_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/Nebulosa-Cat"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/Nebulosa-Cat"
@@ -2129,6 +2428,12 @@
             "value": "https://github.com/Nebulosa-Cat"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/Nebulosa-Cat"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2141,19 +2446,19 @@
             "value": "https://github.com/Nebulosa-Cat"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "translation_contributor.paulHaeussler": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "PaulHaeussler"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "PaulHaeussler"
@@ -2171,6 +2476,12 @@
             "value": "PaulHaeussler"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PaulHaeussler"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2183,19 +2494,19 @@
             "value": "PaulHaeussler"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     },
     "translation_contributor.paulHaeussler_link": {
       "extractionState": "manual",
-      "shouldTranslate": false,
       "localizations": {
-        "en": {
+        "de": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/PaulHaeussler"
           }
         },
-        "de": {
+        "en": {
           "stringUnit": {
             "state": "translated",
             "value": "https://github.com/PaulHaeussler"
@@ -2213,6 +2524,12 @@
             "value": "https://github.com/PaulHaeussler"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://github.com/PaulHaeussler"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2225,7 +2542,8 @@
             "value": "https://github.com/PaulHaeussler"
           }
         }
-      }
+      },
+      "shouldTranslate": false
     }
   },
   "version": "1.0"
