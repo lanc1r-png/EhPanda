@@ -17,19 +17,20 @@ struct AppearanceSettingView: View {
     var body: some View {
         Form {
             Section {
-                Picker(
-                    .theme,
-                    selection: Binding($setting.preferredColorScheme)
-                ) {
+                Picker(selection: Binding($setting.preferredColorScheme)) {
                     ForEach(PreferredColorScheme.allCases) { colorScheme in
                         Text(colorScheme.value)
                             .tag(colorScheme)
                     }
+                } label: {
+                    SettingIconLabel(.theme, symbol: .circleLefthalfFilled, tint: .indigo)
                 }
                 .pickerStyle(.menu)
 
-                Button(.appIcon) {
+                Button {
                     store.send(.delegate(.pushAppIcon))
+                } label: {
+                    SettingIconLabel(.appIcon, symbol: .appFill, tint: .blue)
                 }
                 .foregroundStyle(.primary)
                 .withArrow()
@@ -50,13 +51,10 @@ struct AppearanceSettingView: View {
             }
             Section(.list) {
                 AppToggle(isOn: Binding($setting.showTagsInList)) {
-                    Text(.showTagsInList)
+                    SettingIconLabel(.showTagsInList, symbol: .tagFill, tint: .orange)
                 }
 
-                Picker(
-                    .maximumNumberOfTags,
-                    selection: Binding($setting.listTagsNumberMaximum)
-                ) {
+                Picker(selection: Binding($setting.listTagsNumberMaximum)) {
                     Text(.noLimit)
                         .tag(0)
 
@@ -64,15 +62,16 @@ struct AppearanceSettingView: View {
                         Text(num, format: .number)
                             .tag(num)
                     }
+                } label: {
+                    SettingIconLabel(.maximumNumberOfTags, symbol: .listNumber, tint: .gray)
                 }
                 .pickerStyle(.menu)
                 .disabled(!setting.showTagsInList)
             }
             Section(.gallery) {
-                AppToggle(
-                    .showJapaneseTitles,
-                    isOn: Binding($setting.displayJapaneseTitle)
-                )
+                AppToggle(isOn: Binding($setting.displayJapaneseTitle)) {
+                    SettingIconLabel(.showJapaneseTitles, symbol: .textformat, tint: .pink)
+                }
             }
         }
         .scrollEdgeEffectStyle(.soft, for: .top)

@@ -42,7 +42,7 @@ struct GeneralSettingView: View {
             Section {
                 if dynamicTypeSize.isAccessibilitySize {
                     VStack {
-                        Text(.RLocalizable.language)
+                        SettingIconLabel(.RLocalizable.language, symbol: .globe, tint: .blue)
                             .frame(maxWidth: .infinity, alignment: .leading)
 
                         Button(language) {
@@ -53,7 +53,7 @@ struct GeneralSettingView: View {
                     }
                 } else {
                     HStack {
-                        Text(.RLocalizable.language)
+                        SettingIconLabel(.RLocalizable.language, symbol: .globe, tint: .blue)
                             .frame(maxWidth: .infinity, alignment: .leading)
 
                         Button(language) {
@@ -62,8 +62,10 @@ struct GeneralSettingView: View {
                         .foregroundStyle(.tint)
                     }
                 }
-                Button(.appActivityLogs) {
+                Button {
                     store.send(.delegate(.pushAppActivityLogs))
+                } label: {
+                    SettingIconLabel(.appActivityLogs, symbol: .docTextMagnifyingglass, tint: .gray)
                 }
                 .foregroundStyle(.primary).withArrow()
             }
@@ -125,21 +127,19 @@ struct GeneralSettingView: View {
                 }
             }
             Section(.navigation) {
-                AppToggle(
-                    .openLinksOnSelectedSite,
-                    isOn: Binding($setting.redirectLinksToSelectedHost)
-                )
-                AppToggle(
-                    .detectLinksInClipboard,
-                    isOn: Binding($setting.detectLinksFromClipboard)
-                )
+                AppToggle(isOn: Binding($setting.redirectLinksToSelectedHost)) {
+                    SettingIconLabel(.openLinksOnSelectedSite, symbol: .link, tint: .blue)
+                }
+                AppToggle(isOn: Binding($setting.detectLinksFromClipboard)) {
+                    SettingIconLabel(.detectLinksInClipboard, symbol: .docOnClipboard, tint: .teal)
+                }
             }
             Section(.cache) {
                 Button {
                     store.send(.clearImageCacheButtonTapped)
                 } label: {
                     HStack {
-                        Text(.clearImageCache)
+                        SettingIconLabel(.clearImageCache, symbol: .internaldriveFill, tint: .red)
                             .frame(maxWidth: .infinity, alignment: .leading)
 
                         Text(store.diskImageCacheSize)
