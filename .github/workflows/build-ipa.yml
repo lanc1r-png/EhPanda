@@ -2,7 +2,7 @@ name: Build IPA
 # Unsigned .ipa for personal use: the app is signed afterwards on the device by a sideloading app.
 on:
   push:
-    branches: [main]
+    branches: [main, 'perf/**']
   workflow_dispatch:
 env:
   SCHEME_NAME: 'EhPanda'
