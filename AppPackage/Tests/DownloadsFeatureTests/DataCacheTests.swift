@@ -41,7 +41,7 @@ struct DataCacheTests {
         try await cache.removeData(forKeys: ["stable", "absolute", "stable"])
 
         #expect(await cache.data(forKeys: ["stable", "absolute"]) == nil)
-        #expect(try await cache.totalSize() == 0)
+        #expect(try cache.totalSize() == 0)
     }
 
     @Test
@@ -57,7 +57,7 @@ struct DataCacheTests {
         await cache.removeAllMemory()
 
         #expect(await cache.data(forKey: "expired") == nil)
-        #expect(try await cache.totalSize() == 0)
+        #expect(try cache.totalSize() == 0)
     }
 
     @Test
@@ -83,7 +83,7 @@ struct DataCacheTests {
         #expect(await cache.data(forKey: "old") == nil)
         #expect(await cache.data(forKey: "middle") == nil)
         #expect(await cache.data(forKey: "new") == Data(repeating: 0x03, count: 4))
-        #expect(try await cache.totalSize() <= 5)
+        #expect(try cache.totalSize() <= 5)
     }
 
     @Test
@@ -113,7 +113,7 @@ struct DataCacheTests {
         try await cache.removeAll()
 
         #expect(await cache.data(forKey: "page") == nil)
-        #expect(try await cache.totalSize() == 0)
+        #expect(try cache.totalSize() == 0)
     }
 
     @Test
@@ -134,7 +134,7 @@ struct DataCacheTests {
         try FileManager.default.createDirectory(at: entryURL, withIntermediateDirectories: false)
 
         #expect(await cache.data(forKey: "page") == nil)
-        #expect(try await cache.totalSize() == 0)
+        #expect(try cache.totalSize() == 0)
     }
 
     private func makeRootURL() -> URL {

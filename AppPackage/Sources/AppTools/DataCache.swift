@@ -33,7 +33,7 @@ public actor DataCache {
                 .appending(path: "DataCache.reading", directoryHint: .isDirectory),
             memoryCostLimit: Int = Int(ProcessInfo.processInfo.physicalMemory / 4),
             maxDiskAge: TimeInterval = 7 * 24 * 60 * 60,
-            diskSizeLimit: UInt64 = 0
+            diskSizeLimit: UInt64 = 2 * 1024 * 1024 * 1024
         ) {
             self.rootURL = rootURL
             self.memoryCostLimit = memoryCostLimit
@@ -187,7 +187,12 @@ public actor DataCache {
         memoryCache.removeAllObjects()
     }
 
-    public func totalSize() throws -> UInt64 {
+    /// The size of every cached file on disk. Walking the directory takes as long as the cache is large, so this does
+    /// not run on the actor: a size request from Settings must not hold up the reader's cache reads and writes behind
+    /// it. Like `containsData(forKey:)` it asks `FileManager.default`, because the injected file manager belongs to
+    /// the actor.
+    public nonisolated func totalSize() throws -> UInt64 {
+        let fileManager = FileManager.default
         guard fileManager.fileExists(atPath: configuration.rootURL.path(percentEncoded: false)) else { return 0 }
         guard let enumerator = fileManager.enumerator(
             at: configuration.rootURL,
