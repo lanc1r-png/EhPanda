@@ -19,7 +19,9 @@ public struct ImageClient: Sendable {
         }
     }
 
-    public let prefetchImages: @Sendable ([URL]) -> Void
+    /// Warms the reader's cache for `urls`, returning once every one of them is done. The work lives for as long as
+    /// the awaiting caller does, so cancelling the caller (the reader closing) cancels the downloads under it.
+    public let prefetchImages: @Sendable ([URL]) async -> Void
     public let saveImageDataToPhotoLibrary: @Sendable (Data) async -> Bool
     public var dataCache: DataCache
     public var urlSession: URLSession = .shared
@@ -31,27 +33,44 @@ extension ImageClient {
         let dataCache = injectedDataCache
         return .init(
             prefetchImages: { urls in
-                Task {
-                    await withTaskGroup(of: Void.self) { group in
-                        for url in urls {
-                            group.addTask {
-                                do {
-                                    _ = try await ImageClient.readerImageData(
-                                        url: url, dataCache: dataCache, urlSession: .shared
-                                    )
-                                } catch {
-                                    // Prefetch failures are intentionally ignored: the foreground load retries.
-                                }
-                            }
-                        }
-                    }
-                }
+                await Self.prefetch(urls: urls, dataCache: dataCache)
             },
             saveImageDataToPhotoLibrary: { data in
                 await Self.saveImageDataToPhotoLibrary(data)
             },
             dataCache: dataCache
         )
+    }
+
+    /// How many pages one prefetch call downloads at the same time. A call that has nothing to download (every page is
+    /// cached) finishes as fast as the cache answers; the cap only bounds the pages that are not cached yet.
+    private static let prefetchWidth = 3
+
+    @concurrent
+    private static func prefetch(urls: [URL], dataCache: DataCache) async {
+        await withTaskGroup(of: Void.self) { group in
+            var remaining = urls.makeIterator()
+            for _ in 0..<Self.prefetchWidth {
+                guard let url = remaining.next() else { break }
+                group.addTask {
+                    await Self.prefetchOne(url: url, dataCache: dataCache)
+                }
+            }
+            while await group.next() != nil {
+                guard !Task.isCancelled, let url = remaining.next() else { continue }
+                group.addTask {
+                    await Self.prefetchOne(url: url, dataCache: dataCache)
+                }
+            }
+        }
+    }
+
+    private static func prefetchOne(url: URL, dataCache: DataCache) async {
+        do {
+            _ = try await readerImageData(url: url, dataCache: dataCache, urlSession: .shared)
+        } catch {
+            // Prefetch failures are intentionally ignored: the foreground load retries.
+        }
     }
 
     public static func saveImageDataToPhotoLibrary(_ data: Data) async -> Bool {
@@ -69,6 +88,7 @@ extension ImageClient {
 
     // Exports read the same owned bytes the reader display caches, so save/share/copy
     // route by image content (DES-1) instead of the request URL's extension.
+    @concurrent
     public func fetchImageAsset(url: URL) async -> Result<ImageAsset, any Error> {
         await Result.Swift::init {
             let data = try await Self.readerImageData(
@@ -81,6 +101,7 @@ extension ImageClient {
         }
     }
 
+    @concurrent
     public func fetchReaderImageAsset(
         url: URL,
         onProgress: (@MainActor @Sendable (Double) -> Void)? = nil
@@ -97,6 +118,7 @@ extension ImageClient {
         }
     }
 
+    @concurrent
     public static func readerImageData(
         url: URL,
         dataCache: DataCache,
@@ -120,8 +142,9 @@ extension ImageClient {
                 // Removing a stale placeholder is best-effort; the network refetch still proceeds.
             }
         }
-        let data = try await downloadReaderData(
-            url: url, urlSession: urlSession, onProgress: onProgress
+        let downloadKey = "\(ObjectIdentifier(dataCache).hashValue)|\(url.absoluteString)"
+        let data = try await ReaderImageDownloadCoordinator.shared.data(
+            forKey: downloadKey, url: url, urlSession: urlSession, onProgress: onProgress
         )
         // E-H serves limit/login placeholders as valid 200 images; reject them as the
         // errors they are (matching the download pipeline) so they're never cached,
@@ -150,10 +173,11 @@ extension ImageClient {
     // Streams the body via `bytes(for:)` to drive per-image progress when a
     // handler is supplied; otherwise the single-shot `data(for:)` keeps the
     // progress-less prefetch path fast.
-    private static func downloadReaderData(
+    @concurrent
+    fileprivate static func downloadReaderData(
         url: URL,
         urlSession: URLSession,
-        onProgress: (@MainActor @Sendable (Double) -> Void)?
+        onProgress: (@Sendable (Double) async -> Void)?
     ) async throws -> Data {
         guard let onProgress else {
             let (data, response) = try await urlSession.data(for: URLRequest(url: url))
@@ -184,6 +208,124 @@ extension ImageClient {
         guard let httpResponse = response as? HTTPURLResponse,
               (200..<300).contains(httpResponse.statusCode) else {
             throw AppError.networkingFailed
+        }
+    }
+}
+
+// MARK: ReaderImageDownloadCoordinator
+/// Shares one in-flight download between every caller that asks for the same page image.
+///
+/// The reader's foreground load, its prefetch and a prefetch started a page earlier all reach the same URL, and each
+/// used to download it on its own, which cost bandwidth and the account's image limit. A caller that finds a download
+/// under way joins it instead. Each caller is a waiter: when the last one is cancelled (the page scrolled away, the
+/// reader closed) the download is cancelled with it, so a download nobody waits for never runs on.
+///
+/// Progress is reported to the waiters present while the download runs. It is only measured when the caller that starts
+/// the download asks for it, so a prefetch keeps its single-shot request and a caller that joins it later shows no
+/// progress until the page arrives.
+private actor ReaderImageDownloadCoordinator {
+    typealias ProgressHandler = @MainActor @Sendable (Double) -> Void
+
+    private struct Entry {
+        let id: UUID
+        let task: Task<Data, any Error>
+        var waiters: Set<UUID> = []
+        var observers: [UUID: ProgressHandler] = [:]
+    }
+
+    static let shared = ReaderImageDownloadCoordinator()
+
+    private var entries: [String: Entry] = [:]
+
+    func data(
+        forKey key: String,
+        url: URL,
+        urlSession: URLSession,
+        onProgress: ProgressHandler?
+    ) async throws -> Data {
+        let waiterID = UUID()
+        let task = join(key: key, url: url, urlSession: urlSession, waiterID: waiterID, onProgress: onProgress)
+        return try await withTaskCancellationHandler {
+            let data = try await task.value
+            try Task.checkCancellation()
+            return data
+        } onCancel: {
+            Task {
+                await self.leave(key: key, waiterID: waiterID)
+            }
+        }
+    }
+
+    private func join(
+        key: String,
+        url: URL,
+        urlSession: URLSession,
+        waiterID: UUID,
+        onProgress: ProgressHandler?
+    ) -> Task<Data, any Error> {
+        if var entry = entries[key] {
+            entry.waiters.insert(waiterID)
+            if let onProgress {
+                entry.observers[waiterID] = onProgress
+            }
+            entries[key] = entry
+            return entry.task
+        }
+        let id = UUID()
+        let progressReport: (@Sendable (Double) async -> Void)?
+        if onProgress != nil {
+            progressReport = { fraction in
+                await self.report(key: key, fraction: fraction)
+            }
+        } else {
+            progressReport = nil
+        }
+        // The task runs on this actor, so it can only start once this call has registered the entry below.
+        let task = Task<Data, any Error> {
+            do {
+                let data = try await ImageClient.downloadReaderData(
+                    url: url,
+                    urlSession: urlSession,
+                    onProgress: progressReport
+                )
+                self.finish(key: key, id: id)
+                return data
+            } catch {
+                self.finish(key: key, id: id)
+                throw error
+            }
+        }
+        var entry = Entry(id: id, task: task)
+        entry.waiters.insert(waiterID)
+        if let onProgress {
+            entry.observers[waiterID] = onProgress
+        }
+        entries[key] = entry
+        return task
+    }
+
+    private func report(key: String, fraction: Double) async {
+        guard let entry = entries[key] else { return }
+        let handlers = Array(entry.observers.values)
+        for handler in handlers {
+            await handler(fraction)
+        }
+    }
+
+    private func finish(key: String, id: UUID) {
+        guard entries[key]?.id == id else { return }
+        entries[key] = nil
+    }
+
+    private func leave(key: String, waiterID: UUID) {
+        guard var entry = entries[key] else { return }
+        entry.waiters.remove(waiterID)
+        entry.observers[waiterID] = nil
+        if entry.waiters.isEmpty {
+            entry.task.cancel()
+            entries[key] = nil
+        } else {
+            entries[key] = entry
         }
     }
 }

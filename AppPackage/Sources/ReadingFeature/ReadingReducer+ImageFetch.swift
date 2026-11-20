@@ -127,7 +127,7 @@ extension ReadingReducer {
                 if !prefetchImageURLs.isEmpty {
                     effects.append(
                         .run { [prefetchImageURLs] _ in
-                            imageClient.prefetchImages(prefetchImageURLs)
+                            await imageClient.prefetchImages(prefetchImageURLs)
                         }
                     )
                 }
